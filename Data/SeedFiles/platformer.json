@@ -1,0 +1,162 @@
+{
+  "sorting": {
+    "key": null,
+    "direction": null
+  },
+  "active_filter_options": [
+    {
+      "key": "genre",
+      "connection": "AND",
+      "values": [
+        {
+          "match": "platformer",
+          "value": "platformer"
+        }
+      ]
+    }
+  ],
+  "query": "platformer",
+  "total_results": 59608,
+  "limit": 10,
+  "offset": 0,
+  "results": [
+    {
+      "id": 15174,
+      "year": 2011.0,
+      "name": "Portal 2",
+      "genre": "Platformer",
+      "image": "https://img.gamebrain.co/games/422/portal_2_valve_2011_4.jpg",
+      "link": "https://gamebrain.co/game/portal-2-2011",
+      "rating": {
+        "mean": 0.9603845494257037,
+        "count": 299612.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/475/portal_2_valve_2011_90.jpg", "https://img.gamebrain.co/games/476/portal_2_valve_2011_91.jpg", "https://img.gamebrain.co/games/472/portal_2_valve_2011_51.jpg", "https://img.gamebrain.co/games/478/portal_2_valve_2011_93.jpg", "https://img.gamebrain.co/games/477/portal_2_valve_2011_92.jpg", "https://img.gamebrain.co/games/473/portal_2_valve_2011_52.jpg", "https://img.gamebrain.co/games/479/portal_2_valve_2011_94.jpg", "https://img.gamebrain.co/games/470/portal_2_valve_2011_22.jpg", "https://img.gamebrain.co/games/482/portal_2_valve_2011_88.jpg", "https://img.gamebrain.co/games/483/portal_2_valve_2011_89.jpg", "https://img.gamebrain.co/games/471/portal_2_valve_2011_23.jpg", "https://img.gamebrain.co/games/468/portal_2_valve_2011_20.jpg", "https://img.gamebrain.co/games/477/portal_2_valve_2011_47.jpg", "https://img.gamebrain.co/games/472/portal_2_valve_2011_42.jpg", "https://img.gamebrain.co/games/471/portal_2_valve_2011_41.jpg" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/5787/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/A0K5EXfgJnk",
+      "short_description": null
+    },
+    {
+      "id": 1247759,
+      "year": 2019.0,
+      "name": "Minecraft",
+      "genre": "Arcade Role Playing",
+      "image": "https://img.gamebrain.co/games/335/minecraft_mojang_2022_2.jpg",
+      "link": "https://gamebrain.co/game/minecraft",
+      "rating": {
+        "mean": 0.862,
+        "count": 1618320.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/345/minecraft_mojang_2019_2.png", "https://img.gamebrain.co/games/347/minecraft_mojang_2019_4.png", "https://img.gamebrain.co/games/348/minecraft_mojang_2019_5.png", "https://img.gamebrain.co/games/346/minecraft_mojang_2019_3.png" ],
+      "micro_trailer": null,
+      "gameplay": null,
+      "short_description": "Minecraft is a popular open-world game where players can explore, build, and survive in infinite worlds, either alone or with friends, in both local and massively multiplayer modes. The game offers creative and survival modes, with unlimited resources or the need to mine and craft weapons and armor to fend off mobs. Additional features include the marketplace, slash commands, and add-ons for further customization."
+    },
+    
+    {
+      "id": 35284,
+      "year": 2011.0,
+      "name": "Terraria",
+      "genre": "Open World Role Playing",
+      "image": "https://img.gamebrain.co/games/472/terraria_re_logic_2011_50.jpg",
+      "link": "https://gamebrain.co/game/terraria",
+      "rating": {
+        "mean": 0.836822,
+        "count": 1063976.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/473/terraria_re_logic_2011_60.jpg", "https://img.gamebrain.co/games/472/terraria_re_logic_2011_14.jpg", "https://img.gamebrain.co/games/479/terraria_re_logic_2011_66.jpg", "https://img.gamebrain.co/games/472/terraria_re_logic_2011_50.jpg", "https://img.gamebrain.co/games/478/terraria_re_logic_2011_65.jpg", "https://img.gamebrain.co/games/474/terraria_re_logic_2011_16.jpg", "https://img.gamebrain.co/games/468/terraria_re_logic_2011_10.jpg", "https://img.gamebrain.co/games/477/terraria_re_logic_2011_55.jpg", "https://img.gamebrain.co/games/473/terraria_re_logic_2011_51.jpg", "https://img.gamebrain.co/games/479/terraria_re_logic_2011_57.jpg", "https://img.gamebrain.co/games/476/terraria_re_logic_2011_54.jpg", "https://img.gamebrain.co/games/483/terraria_re_logic_2011_97.jpg", "https://img.gamebrain.co/games/518/terraria_re_logic_2011_102.jpg", "https://img.gamebrain.co/games/474/terraria_re_logic_2011_52.jpg", "https://img.gamebrain.co/games/475/terraria_re_logic_2011_62.jpg", "https://img.gamebrain.co/games/485/terraria_re_logic_2011_99.jpg", "https://img.gamebrain.co/games/479/terraria_re_logic_2011_17.png", "https://img.gamebrain.co/games/425/terraria_re_logic_2011_6.jpg", "https://img.gamebrain.co/games/482/terraria_re_logic_2011_69.jpg" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256785003/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/zLfYD2OOtsc",
+      "short_description": "Terraria is a popular action game that offers an interesting plot, compelling visuals, and a spectacular soundtrack. The game features stellar mechanics that encourage digging, fighting, exploring, and building, with high emotional moments and plenty of humor. While it can be very grinding with some bugs, its outstanding replayability and large community make it a must-play for fans of the genre. Join the fun by digging, fighting, exploring, and building in Terraria!"
+    },
+    {
+      "id": 268027,
+      "year": 2017.0,
+      "name": "Hollow Knight",
+      "genre": "Hack and Slash",
+      "image": "https://img.gamebrain.co/games/691/hollow_knight_teamcherry_2017_3.jpg",
+      "link": "https://gamebrain.co/game/hollow-knight",
+      "rating": {
+        "mean": 0.9550769112088251,
+        "count": 109050.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/744/hollow_knight_teamcherry_2017_35.jpg", "https://img.gamebrain.co/games/742/hollow_knight_teamcherry_2017_33.jpg", "https://img.gamebrain.co/games/741/hollow_knight_teamcherry_2017_32.jpg", "https://img.gamebrain.co/games/738/hollow_knight_teamcherry_2017_11.jpg", "https://img.gamebrain.co/games/743/hollow_knight_teamcherry_2017_34.jpg", "https://img.gamebrain.co/games/740/hollow_knight_teamcherry_2017_13.jpg", "https://img.gamebrain.co/games/740/hollow_knight_teamcherry_2017_31.jpg", "https://img.gamebrain.co/games/740/hollow_knight_teamcherry_2017_22.jpg", "https://img.gamebrain.co/games/741/hollow_knight_teamcherry_2017_23.jpg", "https://img.gamebrain.co/games/743/hollow_knight_teamcherry_2017_25.jpg", "https://img.gamebrain.co/games/742/hollow_knight_teamcherry_2017_24.jpg", "https://img.gamebrain.co/games/744/hollow_knight_teamcherry_2017_26.jpg", "https://img.gamebrain.co/games/745/hollow_knight_teamcherry_2017_27.jpg", "https://img.gamebrain.co/games/739/hollow_knight_teamcherry_2017_21.jpg", "https://img.gamebrain.co/games/747/hollow_knight_teamcherry_2017_29.jpg", "https://img.gamebrain.co/games/746/hollow_knight_teamcherry_2017_28.jpg", "https://img.gamebrain.co/games/745/hollow_knight_teamcherry_2017_14.png", "https://img.gamebrain.co/games/739/hollow_knight_teamcherry_2017_30.jpg" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256674838/microtrailer.webm",
+      "gameplay": "https://video.akamai.steamstatic.com/store_trailers/256674838/microtrailer.webm",
+      "short_description": null
+    },
+    {
+      "id": 264530,
+      "year": 2023.0,
+      "name": "Pizza Tower",
+      "genre": "Platformer",
+      "image": "https://img.gamebrain.co/games/780/pizza_tower_tourdepizza_2023_3.png",
+      "link": "https://gamebrain.co/game/pizza-tower-level-editor-builds",
+      "rating": {
+        "mean": 0.9716,
+        "count": 36721.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/880/pizza_tower_tourdepizza_2023_137.jpg", "https://img.gamebrain.co/games/881/pizza_tower_tourdepizza_2023_138.jpg", "https://img.gamebrain.co/games/830/pizza_tower_tourdepizza_2023_72.jpg", "https://img.gamebrain.co/games/882/pizza_tower_tourdepizza_2023_139.jpg", "https://img.gamebrain.co/games/874/pizza_tower_tourdepizza_2023_140.jpg", "https://img.gamebrain.co/games/831/pizza_tower_tourdepizza_2023_73.jpg", "https://img.gamebrain.co/games/877/pizza_tower_tourdepizza_2023_116.jpg", "https://img.gamebrain.co/games/878/pizza_tower_tourdepizza_2023_117.jpg", "https://img.gamebrain.co/games/834/pizza_tower_tourdepizza_2023_76.jpg", "https://img.gamebrain.co/games/880/pizza_tower_tourdepizza_2023_119.jpg", "https://img.gamebrain.co/games/879/pizza_tower_tourdepizza_2023_118.jpg", "https://img.gamebrain.co/games/831/pizza_tower_tourdepizza_2023_64.jpg", "https://img.gamebrain.co/games/832/pizza_tower_tourdepizza_2023_74.jpg", "https://img.gamebrain.co/games/829/pizza_tower_tourdepizza_2023_71.jpg", "https://img.gamebrain.co/games/832/pizza_tower_tourdepizza_2023_65.jpg" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256918530/microtrailer.webm",
+      "gameplay": "https://video.akamai.steamstatic.com/store_trailers/256918530/microtrailer.webm",
+      "short_description": null
+    },
+    {
+      "id": 57859,
+      "year": 2020.0,
+      "name": "Ori and the Will of the Wisps",
+      "genre": "Platformer",
+      "image": "https://img.gamebrain.co/games/775/ori_and_the_will_of_the_wisps_moon_2020_141.jpg",
+      "link": "https://gamebrain.co/game/ori-and-the-will-of-the-wisps",
+      "rating": {
+        "mean": 0.925113370967742,
+        "count": 55038.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/729/ori_and_the_will_of_the_wisps_moon_2020_80.jpg", "https://img.gamebrain.co/games/774/ori_and_the_will_of_the_wisps_moon_2020_131.jpg", "https://img.gamebrain.co/games/777/ori_and_the_will_of_the_wisps_moon_2020_134.jpg", "https://img.gamebrain.co/games/730/ori_and_the_will_of_the_wisps_moon_2020_45.jpg", "https://img.gamebrain.co/games/774/ori_and_the_will_of_the_wisps_moon_2020_140.jpg", "https://img.gamebrain.co/games/777/ori_and_the_will_of_the_wisps_moon_2020_125.jpg", "https://img.gamebrain.co/games/725/ori_and_the_will_of_the_wisps_moon_2020_40.jpg", "https://img.gamebrain.co/games/773/ori_and_the_will_of_the_wisps_moon_2020_130.jpg", "https://img.gamebrain.co/games/729/ori_and_the_will_of_the_wisps_moon_2020_44.jpg", "https://img.gamebrain.co/games/737/ori_and_the_will_of_the_wisps_moon_2020_79.jpg", "https://img.gamebrain.co/games/781/ori_and_the_will_of_the_wisps_moon_2020_138.jpg", "https://img.gamebrain.co/games/780/ori_and_the_will_of_the_wisps_moon_2020_128.jpg", "https://img.gamebrain.co/games/778/ori_and_the_will_of_the_wisps_moon_2020_126.jpg", "https://img.gamebrain.co/games/776/ori_and_the_will_of_the_wisps_moon_2020_133.jpg", "https://img.gamebrain.co/games/731/ori_and_the_will_of_the_wisps_moon_2020_91.jpg", "https://img.gamebrain.co/games/734/ori_and_the_will_of_the_wisps_moon_2020_49.jpg", "https://img.gamebrain.co/games/776/ori_and_the_will_of_the_wisps_moon_2020_142.jpg", "https://img.gamebrain.co/games/775/ori_and_the_will_of_the_wisps_moon_2020_132.jpg", "https://img.gamebrain.co/games/779/ori_and_the_will_of_the_wisps_moon_2020_127.jpg", "https://img.gamebrain.co/games/733/ori_and_the_will_of_the_wisps_moon_2020_48.jpg", "https://img.gamebrain.co/games/731/ori_and_the_will_of_the_wisps_moon_2020_82.jpg", "https://img.gamebrain.co/games/781/ori_and_the_will_of_the_wisps_moon_2020_147.jpg" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256779902/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/fXUrR6EiEcY",
+      "short_description": "\"Ori and the Will of the Wisps\" is a single-player platformer game with a delightful and emotionally engaging story, featuring ingenious visuals and a splendid soundtrack. Embark on an adventure in a vast, exotic world, with new combat and customization options, facing epic adversaries and challenging puzzles to unravel Ori's true destiny."
+    },
+    
+    {
+      "id": 171153,
+      "year": 2022.0,
+      "name": "Fall Guys",
+      "genre": "Casual Platformer",
+      "image": "https://img.gamebrain.co/games/293/fall_guys_mediatonic_2022_16.jpg",
+      "link": "https://gamebrain.co/game/fall-guys",
+      "rating": {
+        "mean": 0.8377658359728559,
+        "count": 168065.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/288/fall_guys_mediatonic_2020_13.jpg", "https://img.gamebrain.co/games/296/fall_guys_mediatonic_2020_57.jpg", "https://img.gamebrain.co/games/294/fall_guys_mediatonic_2020_55.jpg", "https://img.gamebrain.co/games/292/fall_guys_mediatonic_2020_17.jpg", "https://img.gamebrain.co/games/292/fall_guys_mediatonic_2020_53.jpg", "https://img.gamebrain.co/games/295/fall_guys_mediatonic_2020_47.jpg", "https://img.gamebrain.co/games/290/fall_guys_mediatonic_2020_42.jpg", "https://img.gamebrain.co/games/297/fall_guys_mediatonic_2020_58.jpg", "https://img.gamebrain.co/games/297/fall_guys_mediatonic_2020_49.jpg", "https://img.gamebrain.co/games/287/fall_guys_mediatonic_2020_12.jpg", "https://img.gamebrain.co/games/296/fall_guys_mediatonic_2020_39.jpg", "https://img.gamebrain.co/games/296/fall_guys_mediatonic_2020_62.png", "https://img.gamebrain.co/games/293/fall_guys_mediatonic_2020_45.jpg", "https://img.gamebrain.co/games/295/fall_guys_mediatonic_2020_56.jpg", "https://img.gamebrain.co/games/290/fall_guys_mediatonic_2020_15.jpg", "https://img.gamebrain.co/games/293/fall_guys_mediatonic_2020_54.jpg", "https://img.gamebrain.co/games/286/fall_guys_mediatonic_2020_11.jpg", "https://img.gamebrain.co/games/298/fall_guys_mediatonic_2020_59.jpg", "https://img.gamebrain.co/games/296/fall_guys_mediatonic_2020_48.jpg" ],
+      "micro_trailer": "https://cdn.akamai.steamstatic.com/steam/apps/256917423/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/Gm3Ypy_4k88",
+      "short_description": "\"Fall Guys\" is a multiplayer party game where players control clumsy characters and compete in various challenges, from free-for-alls to cooperative tasks. The game features ever-evolving content, customizable characters, and cross-play support. With the recent addition of a level editor, players can now create and share their own obstacle courses with the community."
+    }
+  ],
+  "sorting_options": [
+    {
+      "name": "Rating",
+      "sort": "DESC",
+      "key": "computed_rating"
+    },
+    {
+      "name": "Price",
+      "sort": "ASC",
+      "key": "price"
+    },
+    {
+      "name": "Release Date",
+      "sort": "DESC",
+      "key": "release_date"
+    }
+  ]
+}

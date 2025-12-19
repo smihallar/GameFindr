@@ -1,0 +1,112 @@
+{
+  "sorting": {
+    "key": null,
+    "direction": null
+  },
+  "active_filter_options": [
+    {
+      "key": "genre",
+      "connection": "AND",
+      "values": [
+        {
+          "match": "arcade",
+          "value": "arcade"
+        }
+      ]
+    }
+  ],
+  "query": "arcade",
+  "total_results": 53450,
+  "limit": 10,
+  "offset": 0,
+  "results": [
+    
+    {
+      "id": 291717,
+      "year": 2017.0,
+      "name": "Toon Blast",
+      "genre": "Arcade Puzzle",
+      "image": "https://img.gamebrain.co/games/52/toon_blast_peak_2017_1.jpg",
+      "link": "https://gamebrain.co/game/toon-blast",
+      "rating": {
+        "mean": 0.8929999999999999,
+        "count": 2625702.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/152/toon_blast_peak_2017_104.jpg", "https://img.gamebrain.co/games/114/toon_blast_peak_2017_96.jpg", "https://img.gamebrain.co/games/58/toon_blast_peak_2017_7.jpg", "https://img.gamebrain.co/games/59/toon_blast_peak_2017_8.jpg", "https://img.gamebrain.co/games/54/toon_blast_peak_2017_3.jpg", "https://img.gamebrain.co/games/53/toon_blast_peak_2017_2.jpg", "https://img.gamebrain.co/games/100/toon_blast_peak_2017_10.jpg", "https://img.gamebrain.co/games/56/toon_blast_peak_2017_5.jpg", "https://img.gamebrain.co/games/154/toon_blast_peak_2017_106.jpg", "https://img.gamebrain.co/games/155/toon_blast_peak_2017_107.jpg", "https://img.gamebrain.co/games/149/toon_blast_peak_2017_101.jpg", "https://img.gamebrain.co/games/150/toon_blast_peak_2017_102.jpg", "https://img.gamebrain.co/games/109/toon_blast_peak_2017_91.jpg", "https://img.gamebrain.co/games/149/toon_blast_peak_2017_110.jpg", "https://img.gamebrain.co/games/116/toon_blast_peak_2017_98.jpg", "https://img.gamebrain.co/games/112/toon_blast_peak_2017_94.jpg", "https://img.gamebrain.co/games/157/toon_blast_peak_2017_109.jpg", "https://img.gamebrain.co/games/113/toon_blast_peak_2017_95.jpg", "https://img.gamebrain.co/games/153/toon_blast_peak_2017_105.jpg", "https://img.gamebrain.co/games/117/toon_blast_peak_2017_99.jpg", "https://img.gamebrain.co/games/156/toon_blast_peak_2017_108.jpg", "https://img.gamebrain.co/games/115/toon_blast_peak_2017_97.jpg", "https://img.gamebrain.co/games/111/toon_blast_peak_2017_93.jpg", "https://img.gamebrain.co/games/151/toon_blast_peak_2017_103.jpg", "https://img.gamebrain.co/games/148/toon_blast_peak_2017_100.jpg" ],
+      "micro_trailer": null,
+      "gameplay": "https://www.youtube-nocookie.com/embed/bkFpwJMy8xs",
+      "short_description": "Toon Blast is a free, match-3 adventure game featuring Bruno Bear, Cooper Cat, and Wally Wolf. With numerous levels and episodes, each with unique goals and obstacles, players combine strategy and fun to complete puzzles. Team up with others, use special boosters, and earn stars for rewards, making Toon Blast an engaging and social game for all. Play it on your phone or tablet for an enjoyable, relaxing experience."
+    },
+    {
+      "id": 1247759,
+      "year": 2019.0,
+      "name": "Minecraft",
+      "genre": "Arcade Role Playing",
+      "image": "https://img.gamebrain.co/games/335/minecraft_mojang_2022_2.jpg",
+      "link": "https://gamebrain.co/game/minecraft",
+      "rating": {
+        "mean": 0.862,
+        "count": 1618320.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/345/minecraft_mojang_2019_2.png", "https://img.gamebrain.co/games/347/minecraft_mojang_2019_4.png", "https://img.gamebrain.co/games/348/minecraft_mojang_2019_5.png", "https://img.gamebrain.co/games/346/minecraft_mojang_2019_3.png" ],
+      "micro_trailer": null,
+      "gameplay": null,
+      "short_description": "Minecraft is a popular open-world game where players can explore, build, and survive in infinite worlds, either alone or with friends, in both local and massively multiplayer modes. The game offers creative and survival modes, with unlimited resources or the need to mine and craft weapons and armor to fend off mobs. Additional features include the marketplace, slash commands, and add-ons for further customization."
+    },
+    {
+      "id": 281768,
+      "year": 2018.0,
+      "name": "Dragon Ball Legends",
+      "genre": "Arcade Role Playing",
+      "image": "https://img.gamebrain.co/games/976/dragon_ball_legends_bandainamco_2018_1.jpg",
+      "link": "https://gamebrain.co/game/dragon-ball-legends",
+      "rating": {
+        "mean": 0.9119999999999999,
+        "count": 771274.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/34/dragon_ball_legends_bandainamco_2018_38.jpg", "https://img.gamebrain.co/games/986/dragon_ball_legends_bandainamco_2018_7.png", "https://img.gamebrain.co/games/30/dragon_ball_legends_bandainamco_2018_25.jpg", "https://img.gamebrain.co/games/32/dragon_ball_legends_bandainamco_2018_27.jpg", "https://img.gamebrain.co/games/985/dragon_ball_legends_bandainamco_2018_6.png", "https://img.gamebrain.co/games/28/dragon_ball_legends_bandainamco_2018_32.jpg", "https://img.gamebrain.co/games/31/dragon_ball_legends_bandainamco_2018_35.jpg", "https://img.gamebrain.co/games/984/dragon_ball_legends_bandainamco_2018_5.png", "https://img.gamebrain.co/games/26/dragon_ball_legends_bandainamco_2018_30.jpg", "https://img.gamebrain.co/games/31/dragon_ball_legends_bandainamco_2018_26.jpg", "https://img.gamebrain.co/games/983/dragon_ball_legends_bandainamco_2018_4.png", "https://img.gamebrain.co/games/33/dragon_ball_legends_bandainamco_2018_37.jpg", "https://img.gamebrain.co/games/30/dragon_ball_legends_bandainamco_2018_34.jpg", "https://img.gamebrain.co/games/33/dragon_ball_legends_bandainamco_2018_28.jpg", "https://img.gamebrain.co/games/34/dragon_ball_legends_bandainamco_2018_29.jpg", "https://img.gamebrain.co/games/982/dragon_ball_legends_bandainamco_2018_3.png", "https://img.gamebrain.co/games/32/dragon_ball_legends_bandainamco_2018_36.jpg", "https://img.gamebrain.co/games/29/dragon_ball_legends_bandainamco_2018_33.jpg", "https://img.gamebrain.co/games/27/dragon_ball_legends_bandainamco_2018_31.jpg", "https://img.gamebrain.co/games/981/dragon_ball_legends_bandainamco_2018_2.png" ],
+      "micro_trailer": null,
+      "gameplay": "https://www.youtube-nocookie.com/embed/75gmP_j6lZQ",
+      "short_description": "\"Dragon Ball Legends\" is a multi-player fantasy fighting game with an original story by Akira Toriyama. The game features over 400 characters from the Dragon Ball series, with action-packed RPG gameplay in stunning 3D animation. Players can collect, train, and build their ultimate team to fight in battles and save the world."
+    },
+  
+    {
+      "id": 1186280,
+      "year": 2020.0,
+      "name": "Like A Dino!",
+      "genre": "Action",
+      "image": "https://img.gamebrain.co/games/931/like_a_dino_super_toki_2020_1.jpg",
+      "link": "https://gamebrain.co/game/like-a-dino",
+      "rating": {
+        "mean": 0.9309999999999999,
+        "count": 192360.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/255/like_a_dino_hyun_joongkim_2020_9.jpg", "https://img.gamebrain.co/games/296/like_a_dino_hyun_joongkim_2020_11.jpg", "https://img.gamebrain.co/games/250/like_a_dino_hyun_joongkim_2020_4.jpg" ],
+      "micro_trailer": null,
+      "gameplay": "https://www.youtube-nocookie.com/embed/TWC_tM9NhEk",
+      "short_description": "\"Like A Dino!\" is a simple and fun game where you play as a dinosaur, with clean graphics and easy-to-learn gameplay. Please note that game data is not transferable or restorable if the app is deleted. The developer can be found on social media under the handle @super\\_toki or similar."
+    }
+    
+  ],
+  "sorting_options": [
+    {
+      "name": "Rating",
+      "sort": "DESC",
+      "key": "computed_rating"
+    },
+    {
+      "name": "Price",
+      "sort": "ASC",
+      "key": "price"
+    },
+    {
+      "name": "Release Date",
+      "sort": "DESC",
+      "key": "release_date"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "sorting": {
+    "key": null,
+    "direction": null
+  },
+  "active_filter_options": [
+    {
+      "key": "genre",
+      "connection": "AND",
+      "values": [
+        {
+          "match": "puzzle",
+          "value": "puzzle"
+        }
+      ]
+    }
+  ],
+  "query": "puzzle",
+  "total_results": 100644,
+  "limit": 10,
+  "offset": 0,
+  "results": [
+    {
+      "id": 1121136,
+      "year": 2020.0,
+      "name": "Block Puzzle - Brain Test Game",
+      "genre": "Puzzle",
+      "image": "https://img.gamebrain.co/games/653/block_puzzle_brain_test_game_doodlemobile_2020_14.png",
+      "link": "https://gamebrain.co/game/block-puzzle-brain-test-game",
+      "rating": {
+        "mean": 0.8929999999999999,
+        "count": 1014641.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/605/block_puzzle_brain_test_game_doodlemobile_2020_9.jpg", "https://img.gamebrain.co/games/600/block_puzzle_brain_test_game_doodlemobile_2020_4.jpg", "https://img.gamebrain.co/games/603/block_puzzle_brain_test_game_doodlemobile_2020_7.jpg", "https://img.gamebrain.co/games/646/block_puzzle_brain_test_game_doodlemobile_2020_11.jpg", "https://img.gamebrain.co/games/601/block_puzzle_brain_test_game_doodlemobile_2020_5.jpg", "https://img.gamebrain.co/games/599/block_puzzle_brain_test_game_doodlemobile_2020_3.jpg", "https://img.gamebrain.co/games/645/block_puzzle_brain_test_game_doodlemobile_2020_10.jpg", "https://img.gamebrain.co/games/602/block_puzzle_brain_test_game_doodlemobile_2020_6.jpg" ],
+      "micro_trailer": null,
+      "gameplay": "https://www.youtube-nocookie.com/embed/gAoVtF3t8SM",
+      "short_description": "\"Block Puzzle - Brain Test Game\" is a simple yet addictive puzzle game where players drop blocks to create horizontal or vertical lines without gaps, which are then destroyed. The goal is to keep the board clear as things heat up. The game features easy-to-pick-up gameplay, beautiful graphics, and a calming soundtrack, making it a perfect choice for a quick brain teaser or a longer strategy session."
+    },
+    {
+      "id": 291717,
+      "year": 2017.0,
+      "name": "Toon Blast",
+      "genre": "Arcade Puzzle",
+      "image": "https://img.gamebrain.co/games/52/toon_blast_peak_2017_1.jpg",
+      "link": "https://gamebrain.co/game/toon-blast",
+      "rating": {
+        "mean": 0.8929999999999999,
+        "count": 2625702.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/152/toon_blast_peak_2017_104.jpg", "https://img.gamebrain.co/games/114/toon_blast_peak_2017_96.jpg", "https://img.gamebrain.co/games/58/toon_blast_peak_2017_7.jpg", "https://img.gamebrain.co/games/59/toon_blast_peak_2017_8.jpg", "https://img.gamebrain.co/games/54/toon_blast_peak_2017_3.jpg", "https://img.gamebrain.co/games/53/toon_blast_peak_2017_2.jpg", "https://img.gamebrain.co/games/100/toon_blast_peak_2017_10.jpg", "https://img.gamebrain.co/games/56/toon_blast_peak_2017_5.jpg", "https://img.gamebrain.co/games/154/toon_blast_peak_2017_106.jpg", "https://img.gamebrain.co/games/155/toon_blast_peak_2017_107.jpg", "https://img.gamebrain.co/games/149/toon_blast_peak_2017_101.jpg", "https://img.gamebrain.co/games/150/toon_blast_peak_2017_102.jpg", "https://img.gamebrain.co/games/109/toon_blast_peak_2017_91.jpg", "https://img.gamebrain.co/games/149/toon_blast_peak_2017_110.jpg", "https://img.gamebrain.co/games/116/toon_blast_peak_2017_98.jpg", "https://img.gamebrain.co/games/112/toon_blast_peak_2017_94.jpg", "https://img.gamebrain.co/games/157/toon_blast_peak_2017_109.jpg", "https://img.gamebrain.co/games/113/toon_blast_peak_2017_95.jpg", "https://img.gamebrain.co/games/153/toon_blast_peak_2017_105.jpg", "https://img.gamebrain.co/games/117/toon_blast_peak_2017_99.jpg", "https://img.gamebrain.co/games/156/toon_blast_peak_2017_108.jpg", "https://img.gamebrain.co/games/115/toon_blast_peak_2017_97.jpg", "https://img.gamebrain.co/games/111/toon_blast_peak_2017_93.jpg", "https://img.gamebrain.co/games/151/toon_blast_peak_2017_103.jpg", "https://img.gamebrain.co/games/148/toon_blast_peak_2017_100.jpg" ],
+      "micro_trailer": null,
+      "gameplay": "https://www.youtube-nocookie.com/embed/bkFpwJMy8xs",
+      "short_description": "Toon Blast is a free, match-3 adventure game featuring Bruno Bear, Cooper Cat, and Wally Wolf. With numerous levels and episodes, each with unique goals and obstacles, players combine strategy and fun to complete puzzles. Team up with others, use special boosters, and earn stars for rewards, making Toon Blast an engaging and social game for all. Play it on your phone or tablet for an enjoyable, relaxing experience."
+    },
+    {
+      "id": 1115534,
+      "year": 2020.0,
+      "name": "Woodoku - Wood Block Puzzles",
+      "genre": "Puzzle",
+      "image": "https://img.gamebrain.co/games/318/woodoku_wood_block_puzzles_tripledot_2020_48.png",
+      "link": "https://gamebrain.co/game/woodoku-wood-block-puzzles",
+      "rating": {
+        "mean": 0.8929999999999999,
+        "count": 629088.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/310/woodoku_wood_block_puzzles_tripledot_2020_53.jpg", "https://img.gamebrain.co/games/314/woodoku_wood_block_puzzles_tripledot_2020_57.jpg", "https://img.gamebrain.co/games/312/woodoku_wood_block_puzzles_tripledot_2020_55.jpg", "https://img.gamebrain.co/games/308/woodoku_wood_block_puzzles_tripledot_2020_51.jpg", "https://img.gamebrain.co/games/307/woodoku_wood_block_puzzles_tripledot_2020_50.jpg", "https://img.gamebrain.co/games/313/woodoku_wood_block_puzzles_tripledot_2020_56.jpg", "https://img.gamebrain.co/games/315/woodoku_wood_block_puzzles_tripledot_2020_58.jpg", "https://img.gamebrain.co/games/309/woodoku_wood_block_puzzles_tripledot_2020_52.jpg" ],
+      "micro_trailer": null,
+      "gameplay": "https://www.youtube-nocookie.com/embed/VeL363S2h4U",
+      "short_description": "Woodoku is a relaxing wood block puzzle game with a sudoku grid. The objective is to place blocks on the 9x9 board, clearing rows, columns, or squares to earn points. With no time limit and a simple design, it offers a zen gameplay experience that is easy to learn but challenging to master. Featuring beautiful graphics, satisfying sound effects, and a light, portable format, it's a great choice for players who enjoy calming and engaging puzzle games."
+    },
+    {
+      "id": 199447,
+      "year": 2020.0,
+      "name": "Phasmophobia",
+      "genre": "Puzzle",
+      "image": "https://img.gamebrain.co/games/684/phasmophobia_kinetic_2020_4716.jpg",
+      "link": "https://gamebrain.co/game/phasmophobia",
+      "rating": {
+        "mean": 0.959541,
+        "count": 412763.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/687/phasmophobia_kinetic_2020_4719.jpg", "https://img.gamebrain.co/games/682/phasmophobia_kinetic_2020_4723.jpg", "https://img.gamebrain.co/games/571/phasmophobia_kinetic_2020_10.jpg", "https://img.gamebrain.co/games/578/phasmophobia_kinetic_2020_17.jpg", "https://img.gamebrain.co/games/680/phasmophobia_kinetic_2020_4730.jpg", "https://img.gamebrain.co/games/687/phasmophobia_kinetic_2020_4728.jpg", "https://img.gamebrain.co/games/685/phasmophobia_kinetic_2020_4717.jpg", "https://img.gamebrain.co/games/573/phasmophobia_kinetic_2020_12.jpg", "https://img.gamebrain.co/games/575/phasmophobia_kinetic_2020_14.jpg", "https://img.gamebrain.co/games/529/phasmophobia_kinetic_2020_7.jpg", "https://img.gamebrain.co/games/683/phasmophobia_kinetic_2020_4724.jpg", "https://img.gamebrain.co/games/686/phasmophobia_kinetic_2020_4718.jpg", "https://img.gamebrain.co/games/684/phasmophobia_kinetic_2020_4716.jpg" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257162354/microtrailer.webm",
+      "gameplay": "https://video.akamai.steamstatic.com/store_trailers/257162354/microtrailer.webm",
+      "short_description": null
+    },
+    {
+      "id": 219685,
+      "year": 2021.0,
+      "name": "Inscryption",
+      "genre": "Strategy",
+      "image": "https://img.gamebrain.co/games/124/inscryption_danielmullins_2021_4.png",
+      "link": "https://gamebrain.co/game/inscryption",
+      "rating": {
+        "mean": 0.9162462564102565,
+        "count": 131075.0
+      },
+      "adult_only": true,
+      "screenshots": [],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256852985/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/QLqSWDSA0as",
+      "short_description": "Inscryption is a single-player horror action game with an intriguing story, fabulous gameplay, and dense atmosphere. The game features deckbuilding, escape-room puzzles, and psychological horror as you acquire creature cards, unlock secrets, and embark on a disturbing odyssey. Although there is lots of grinding, annoying ads, bugs, and a fantastic visual and ingenious soundtrack, the game is highly emotional and very replayable."
+    },
+    {
+      "id": 1217692,
+      "year": 2019.0,
+      "name": "Blockudoku - Block Puzzle",
+      "genre": "Puzzle",
+      "image": "https://img.gamebrain.co/games/851/blockudoku_block_puzzle_easybrain_2019_34.png",
+      "link": "https://gamebrain.co/game/blockudoku-block-puzzle",
+      "rating": {
+        "mean": 0.874,
+        "count": 628065.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/843/blockudoku_block_puzzle_easybrain_2019_30.jpg", "https://img.gamebrain.co/games/845/blockudoku_block_puzzle_easybrain_2019_23.jpg", "https://img.gamebrain.co/games/846/blockudoku_block_puzzle_easybrain_2019_24.jpg", "https://img.gamebrain.co/games/845/blockudoku_block_puzzle_easybrain_2019_32.jpg", "https://img.gamebrain.co/games/843/blockudoku_block_puzzle_easybrain_2019_21.jpg", "https://img.gamebrain.co/games/849/blockudoku_block_puzzle_easybrain_2019_27.jpg", "https://img.gamebrain.co/games/850/blockudoku_block_puzzle_easybrain_2019_19.jpg", "https://img.gamebrain.co/games/849/blockudoku_block_puzzle_easybrain_2019_18.jpg", "https://img.gamebrain.co/games/847/blockudoku_block_puzzle_easybrain_2019_25.jpg", "https://img.gamebrain.co/games/850/blockudoku_block_puzzle_easybrain_2019_28.jpg", "https://img.gamebrain.co/games/848/blockudoku_block_puzzle_easybrain_2019_26.jpg", "https://img.gamebrain.co/games/842/blockudoku_block_puzzle_easybrain_2019_20.jpg", "https://img.gamebrain.co/games/851/blockudoku_block_puzzle_easybrain_2019_29.jpg", "https://img.gamebrain.co/games/844/blockudoku_block_puzzle_easybrain_2019_22.jpg" ],
+      "micro_trailer": null,
+      "gameplay": "https://www.youtube-nocookie.com/embed/qfYagBZ3Aa8",
+      "short_description": "Blockudoku is a challenging block puzzle game with elements of Sudoku. The objective is to drop blocks on a 9x9 grid and fill up lines and squares to remove them, aiming to keep the board clean and beat your high score. The game offers daily challenges, seasonal events, and tournaments for players to compete in, with various achievements and rewards to unlock. Careful planning and strategic moves are key to mastering Blockudoku."
+    },
+    {
+      "id": 1155865,
+      "year": 2017.0,
+      "name": "Word Collect Word Puzzle Games",
+      "genre": "Action",
+      "image": "https://img.gamebrain.co/games/926/word_collect_word_puzzle_games_superlucky_2017_13.png",
+      "link": "https://gamebrain.co/game/word-collect-word-puzzle-games",
+      "rating": {
+        "mean": 0.9309999999999999,
+        "count": 558046.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/922/word_collect_word_puzzle_games_superlucky_2017_22.jpg", "https://img.gamebrain.co/games/923/word_collect_word_puzzle_games_superlucky_2017_23.jpg", "https://img.gamebrain.co/games/920/word_collect_word_puzzle_games_superlucky_2017_20.jpg", "https://img.gamebrain.co/games/921/word_collect_word_puzzle_games_superlucky_2017_21.jpg", "https://img.gamebrain.co/games/926/word_collect_word_puzzle_games_superlucky_2017_26.jpg", "https://img.gamebrain.co/games/924/word_collect_word_puzzle_games_superlucky_2017_24.jpg", "https://img.gamebrain.co/games/926/word_collect_word_puzzle_games_superlucky_2017_17.jpg", "https://img.gamebrain.co/games/925/word_collect_word_puzzle_games_superlucky_2017_25.jpg", "https://img.gamebrain.co/games/927/word_collect_word_puzzle_games_superlucky_2017_18.jpg", "https://img.gamebrain.co/games/928/word_collect_word_puzzle_games_superlucky_2017_19.jpg", "https://img.gamebrain.co/games/924/word_collect_word_puzzle_games_superlucky_2017_15.jpg", "https://img.gamebrain.co/games/925/word_collect_word_puzzle_games_superlucky_2017_16.jpg", "https://img.gamebrain.co/games/923/word_collect_word_puzzle_games_superlucky_2017_14.jpg" ],
+      "micro_trailer": null,
+      "gameplay": null,
+      "short_description": "Word Collect is a word puzzle game with over 2500 levels that starts easy and gets progressively harder. It features daily challenges and bonus coins, and allows you to earn hints to help you solve difficult levels. The game can be played offline and is suitable for players of all ages."
+    },
+    
+    {
+      "id": 1176066,
+      "year": 2019.0,
+      "name": "Word Crush - Fun Puzzle Game",
+      "genre": "Action",
+      "image": "https://img.gamebrain.co/games/318/word_crush_fun_puzzle_game_yewtechnology_2019_18.png",
+      "link": "https://gamebrain.co/game/word-crush-fun-puzzle-game",
+      "rating": {
+        "mean": 0.874,
+        "count": 1005329.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/311/word_crush_fun_puzzle_game_yewtechnology_2019_33.jpg", "https://img.gamebrain.co/games/312/word_crush_fun_puzzle_game_yewtechnology_2019_25.jpg", "https://img.gamebrain.co/games/315/word_crush_fun_puzzle_game_yewtechnology_2019_28.jpg", "https://img.gamebrain.co/games/307/word_crush_fun_puzzle_game_yewtechnology_2019_20.jpg", "https://img.gamebrain.co/games/311/word_crush_fun_puzzle_game_yewtechnology_2019_24.jpg", "https://img.gamebrain.co/games/315/word_crush_fun_puzzle_game_yewtechnology_2019_19.jpg", "https://img.gamebrain.co/games/309/word_crush_fun_puzzle_game_yewtechnology_2019_31.jpg", "https://img.gamebrain.co/games/310/word_crush_fun_puzzle_game_yewtechnology_2019_23.jpg", "https://img.gamebrain.co/games/309/word_crush_fun_puzzle_game_yewtechnology_2019_22.jpg", "https://img.gamebrain.co/games/314/word_crush_fun_puzzle_game_yewtechnology_2019_27.jpg", "https://img.gamebrain.co/games/310/word_crush_fun_puzzle_game_yewtechnology_2019_32.jpg", "https://img.gamebrain.co/games/308/word_crush_fun_puzzle_game_yewtechnology_2019_30.jpg", "https://img.gamebrain.co/games/312/word_crush_fun_puzzle_game_yewtechnology_2019_34.jpg", "https://img.gamebrain.co/games/316/word_crush_fun_puzzle_game_yewtechnology_2019_29.jpg", "https://img.gamebrain.co/games/308/word_crush_fun_puzzle_game_yewtechnology_2019_21.jpg", "https://img.gamebrain.co/games/313/word_crush_fun_puzzle_game_yewtechnology_2019_26.jpg" ],
+      "micro_trailer": null,
+      "gameplay": null,
+      "short_description": "Word Crush is a word search and connect puzzle game with thousands of themed letter blocks. It combines crossword puzzles, category word games, connect puzzles, trivia, and elements of Scrabble, with new bonuses every day. The game provides a fun and engaging way to improve your vocabulary and train your brain, all while enjoying funny jokes and puns."
+    },
+    {
+      "id": 1147511,
+      "year": 2017.0,
+      "name": "Word Connect ¤",
+      "genre": "Puzzle",
+      "image": "https://img.gamebrain.co/games/961/word_connect_zenlifepte_2017_31.png",
+      "link": "https://gamebrain.co/game/word-connect",
+      "rating": {
+        "mean": 0.9119999999999999,
+        "count": 1452662.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/961/word_connect_zenlifepte_2017_26.jpg", "https://img.gamebrain.co/games/958/word_connect_zenlifepte_2017_23.jpg", "https://img.gamebrain.co/games/957/word_connect_zenlifepte_2017_22.jpg", "https://img.gamebrain.co/games/960/word_connect_zenlifepte_2017_25.jpg", "https://img.gamebrain.co/games/956/word_connect_zenlifepte_2017_21.jpg", "https://img.gamebrain.co/games/955/word_connect_zenlifepte_2017_20.jpg", "https://img.gamebrain.co/games/962/word_connect_zenlifepte_2017_18.jpg" ],
+      "micro_trailer": null,
+      "gameplay": null,
+      "short_description": "\"Word Connect\" is a free word game featuring addictive swipe-based gameplay and over 18,000 levels. Players can enjoy normal, crossword, and daily challenge modes, with daily bonuses and customizable themes available. The vintage-style graphics contribute to a nostalgic experience as players solve puzzles to build words and train their brains."
+    }
+  ],
+  "sorting_options": [
+    {
+      "name": "Rating",
+      "sort": "DESC",
+      "key": "computed_rating"
+    },
+    {
+      "name": "Price",
+      "sort": "ASC",
+      "key": "price"
+    },
+    {
+      "name": "Release Date",
+      "sort": "DESC",
+      "key": "release_date"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "sorting": {
+    "key": null,
+    "direction": null
+  },
+  "active_filter_options": [
+    {
+      "key": "genre",
+      "connection": "AND",
+      "values": [
+        {
+          "match": "racing",
+          "value": "racing"
+        }
+      ]
+    }
+  ],
+  "query": "racing",
+  "total_results": 22948,
+  "limit": 10,
+  "offset": 0,
+  "results": [
+    {
+      "id": 284530,
+      "year": 2012.0,
+      "name": "Euro Truck Simulator 2",
+      "genre": "Open World Racing",
+      "image": "https://img.gamebrain.co/games/348/euro_truck_simulator_2_scs_2013_31.jpg",
+      "link": "https://gamebrain.co/game/euro-truck-simulator-2",
+      "rating": {
+        "mean": 0.9544616666666668,
+        "count": 172485.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/282/euro_truck_simulator_2_scssoftware_2013_168.jpg", "https://img.gamebrain.co/games/273/euro_truck_simulator_2_scssoftware_2013_150.jpg", "https://img.gamebrain.co/games/180/euro_truck_simulator_2_scssoftware_2013_9.jpg", "https://img.gamebrain.co/games/222/euro_truck_simulator_2_scssoftware_2013_12.jpg", "https://img.gamebrain.co/games/277/euro_truck_simulator_2_scssoftware_2013_127.jpg", "https://img.gamebrain.co/games/271/euro_truck_simulator_2_scssoftware_2013_130.jpg", "https://img.gamebrain.co/games/224/euro_truck_simulator_2_scssoftware_2013_32.jpg", "https://img.gamebrain.co/games/231/euro_truck_simulator_2_scssoftware_2013_62.png", "https://img.gamebrain.co/games/223/euro_truck_simulator_2_scssoftware_2013_13.jpg", "https://img.gamebrain.co/games/276/euro_truck_simulator_2_scssoftware_2013_162.jpg", "https://img.gamebrain.co/games/179/euro_truck_simulator_2_scssoftware_2013_8.jpg", "https://img.gamebrain.co/games/277/euro_truck_simulator_2_scssoftware_2013_217.jpg", "https://img.gamebrain.co/games/274/euro_truck_simulator_2_scssoftware_2013_124.jpg", "https://img.gamebrain.co/games/234/euro_truck_simulator_2_scssoftware_2013_87.jpg", "https://img.gamebrain.co/games/225/euro_truck_simulator_2_scssoftware_2013_33.jpg", "https://img.gamebrain.co/games/279/euro_truck_simulator_2_scssoftware_2013_138.jpg", "https://img.gamebrain.co/games/222/euro_truck_simulator_2_scssoftware_2013_30.jpg", "https://img.gamebrain.co/games/220/euro_truck_simulator_2_scssoftware_2013_10.jpg", "https://img.gamebrain.co/games/223/euro_truck_simulator_2_scssoftware_2013_31.jpg", "https://img.gamebrain.co/games/277/euro_truck_simulator_2_scssoftware_2013_136.jpg", "https://img.gamebrain.co/games/237/euro_truck_simulator_2_scssoftware_2013_77.png", "https://img.gamebrain.co/games/272/euro_truck_simulator_2_scssoftware_2013_140.jpg", "https://img.gamebrain.co/games/236/euro_truck_simulator_2_scssoftware_2013_76.png", "https://img.gamebrain.co/games/277/euro_truck_simulator_2_scssoftware_2013_172.jpg", "https://img.gamebrain.co/games/279/euro_truck_simulator_2_scssoftware_2013_129.jpg", "https://img.gamebrain.co/games/276/euro_truck_simulator_2_scssoftware_2013_122.png", "https://img.gamebrain.co/games/273/euro_truck_simulator_2_scssoftware_2013_123.jpg", "https://img.gamebrain.co/games/275/euro_truck_simulator_2_scssoftware_2013_134.jpg", "https://img.gamebrain.co/games/231/euro_truck_simulator_2_scssoftware_2013_39.jpg", "https://img.gamebrain.co/games/230/euro_truck_simulator_2_scssoftware_2013_29.jpg", "https://img.gamebrain.co/games/232/euro_truck_simulator_2_scssoftware_2013_58.jpg", "https://img.gamebrain.co/games/235/euro_truck_simulator_2_scssoftware_2013_75.png", "https://img.gamebrain.co/games/276/euro_truck_simulator_2_scssoftware_2013_135.jpg", "https://img.gamebrain.co/games/225/euro_truck_simulator_2_scssoftware_2013_24.jpg", "https://img.gamebrain.co/games/229/euro_truck_simulator_2_scssoftware_2013_55.jpg", "https://img.gamebrain.co/games/226/euro_truck_simulator_2_scssoftware_2013_34.jpg", "https://img.gamebrain.co/games/273/euro_truck_simulator_2_scssoftware_2013_132.jpg", "https://img.gamebrain.co/games/276/euro_truck_simulator_2_scssoftware_2013_108.jpg", "https://img.gamebrain.co/games/238/euro_truck_simulator_2_scssoftware_2013_78.png" ],
+      "micro_trailer": "https://cdn.akamai.steamstatic.com/steam/apps/256945941/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/b54Kk5vvxfw",
+      "short_description": "In Euro Truck Simulator 2, become a skilled long-haul trucker, delivering cargo to over 60 European cities. Manage your own trucking business, hire drivers, and tune your fleet for maximum profits. The recently added 8-player Convoy multiplayer mode allows you to team up with friends for collaborative gameplay."
+    },
+   
+    {
+      "id": 1387738,
+      "year": 2021.0,
+      "name": "Race Master 3D: Car Racing",
+      "genre": "Racing",
+      "image": "https://img.gamebrain.co/games/583/race_master_3d_car_racing_beresnevs_r_o_2021_21.png",
+      "link": "https://gamebrain.co/game/race-master-3d-car-racing-2021",
+      "rating": {
+        "mean": 0.874,
+        "count": 526425.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/577/race_master_3d_car_racing_beresnevs_r_o_2021_10.jpg", "https://img.gamebrain.co/games/535/race_master_3d_car_racing_beresnevs_r_o_2021_7.jpg", "https://img.gamebrain.co/games/583/race_master_3d_car_racing_beresnevs_r_o_2021_16.jpg", "https://img.gamebrain.co/games/530/race_master_3d_car_racing_beresnevs_r_o_2021_2.jpg", "https://img.gamebrain.co/games/534/race_master_3d_car_racing_beresnevs_r_o_2021_6.jpg", "https://img.gamebrain.co/games/582/race_master_3d_car_racing_beresnevs_r_o_2021_15.jpg", "https://img.gamebrain.co/games/533/race_master_3d_car_racing_beresnevs_r_o_2021_5.jpg", "https://img.gamebrain.co/games/585/race_master_3d_car_racing_beresnevs_r_o_2021_18.jpg", "https://img.gamebrain.co/games/579/race_master_3d_car_racing_beresnevs_r_o_2021_12.jpg", "https://img.gamebrain.co/games/580/race_master_3d_car_racing_beresnevs_r_o_2021_13.jpg", "https://img.gamebrain.co/games/537/race_master_3d_car_racing_beresnevs_r_o_2021_9.jpg", "https://img.gamebrain.co/games/581/race_master_3d_car_racing_beresnevs_r_o_2021_14.jpg", "https://img.gamebrain.co/games/584/race_master_3d_car_racing_beresnevs_r_o_2021_17.jpg", "https://img.gamebrain.co/games/532/race_master_3d_car_racing_beresnevs_r_o_2021_4.jpg", "https://img.gamebrain.co/games/586/race_master_3d_car_racing_beresnevs_r_o_2021_19.jpg", "https://img.gamebrain.co/games/536/race_master_3d_car_racing_beresnevs_r_o_2021_8.jpg", "https://img.gamebrain.co/games/531/race_master_3d_car_racing_beresnevs_r_o_2021_3.jpg", "https://img.gamebrain.co/games/578/race_master_3d_car_racing_beresnevs_r_o_2021_11.jpg" ],
+      "micro_trailer": null,
+      "gameplay": "https://www.youtube-nocookie.com/embed/p6X0Y3lCcaM",
+      "short_description": null
+    },
+    {
+      "id": 1167721,
+      "year": 2021.0,
+      "name": "Race Master 3D - Car Racing",
+      "genre": "Racing",
+      "image": "https://img.gamebrain.co/games/3/race_master_3d_car_racing_saygames_2021_1.png",
+      "link": "https://gamebrain.co/game/race-master-3d-car-racing",
+      "rating": {
+        "mean": 0.874,
+        "count": 389866.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/51/race_master_3d_car_racing_saygames_2021_14.jpg", "https://img.gamebrain.co/games/55/race_master_3d_car_racing_saygames_2021_18.jpg", "https://img.gamebrain.co/games/48/race_master_3d_car_racing_saygames_2021_11.jpg", "https://img.gamebrain.co/games/0/race_master_3d_car_racing_saygames_2021_2.jpg", "https://img.gamebrain.co/games/5/race_master_3d_car_racing_saygames_2021_7.jpg", "https://img.gamebrain.co/games/52/race_master_3d_car_racing_saygames_2021_15.jpg", "https://img.gamebrain.co/games/3/race_master_3d_car_racing_saygames_2021_5.jpg", "https://img.gamebrain.co/games/56/race_master_3d_car_racing_saygames_2021_19.jpg", "https://img.gamebrain.co/games/6/race_master_3d_car_racing_saygames_2021_8.jpg", "https://img.gamebrain.co/games/47/race_master_3d_car_racing_saygames_2021_10.jpg", "https://img.gamebrain.co/games/2/race_master_3d_car_racing_saygames_2021_4.jpg", "https://img.gamebrain.co/games/7/race_master_3d_car_racing_saygames_2021_9.jpg", "https://img.gamebrain.co/games/53/race_master_3d_car_racing_saygames_2021_16.jpg", "https://img.gamebrain.co/games/49/race_master_3d_car_racing_saygames_2021_12.jpg", "https://img.gamebrain.co/games/54/race_master_3d_car_racing_saygames_2021_17.jpg", "https://img.gamebrain.co/games/4/race_master_3d_car_racing_saygames_2021_6.jpg", "https://img.gamebrain.co/games/1/race_master_3d_car_racing_saygames_2021_3.jpg", "https://img.gamebrain.co/games/50/race_master_3d_car_racing_saygames_2021_13.jpg" ],
+      "micro_trailer": null,
+      "gameplay": null,
+      "short_description": "Race Master 3D - Car Racing is a mobile game that offers high-speed, unpredictable races with 33 unique levels and 7 diverse locations. The game features 8 bosses with customized cars and numerous obstacles, providing a challenging and entertaining driving experience. With intuitive controls and psychedelic graphics, Race Master 3D delivers speed, drama, and excitement in every race."
+    },
+   
+    {
+      "id": 1287412,
+      "year": 2024.0,
+      "name": "MR RACER - Car Racing",
+      "genre": "Casual Racing",
+      "image": "https://img.gamebrain.co/games/403/mr_racer_car_racing_chennaigames_3.jpg",
+      "link": "https://gamebrain.co/game/mr-racer-car-racing",
+      "rating": {
+        "mean": 0.8224800000000001,
+        "count": 755819.0
+      },
+      "adult_only": false,
+      "screenshots": [],
+      "micro_trailer": null,
+      "gameplay": "https://v.poki.com/47dc53d9-a460-406a-8864-a88ea4e2a27c/thumbnail.3x3.vp9.mp4",
+      "short_description": "MR RACER - Car Racing is a free, online game on Poki where players can compete in car races with no downloads or logins required. The game features various tracks and cars to choose from, with the goal of crossing the finish line first. Discover more games like this on Poki for additional racing fun."
+    },
+    {
+      "id": 26131,
+      "year": 2015.0,
+      "name": "Rocket League",
+      "genre": "Racing",
+      "image": "https://img.gamebrain.co/games/638/rocket_league_psyonix_2015_7.jpg",
+      "link": "https://gamebrain.co/game/rocket-league",
+      "rating": {
+        "mean": 0.8590608780487805,
+        "count": 447065.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/689/rocket_league_psyonix_2015_19.jpg", "https://img.gamebrain.co/games/687/rocket_league_psyonix_2015_26.jpg", "https://img.gamebrain.co/games/682/rocket_league_psyonix_2015_12.jpg", "https://img.gamebrain.co/games/689/rocket_league_psyonix_2015_28.jpg", "https://img.gamebrain.co/games/684/rocket_league_psyonix_2015_14.jpg", "https://img.gamebrain.co/games/692/rocket_league_psyonix_2015_67.jpg", "https://img.gamebrain.co/games/692/rocket_league_psyonix_2015_36.png", "https://img.gamebrain.co/games/687/rocket_league_psyonix_2015_17.jpg", "https://img.gamebrain.co/games/685/rocket_league_psyonix_2015_20.png", "https://img.gamebrain.co/games/689/rocket_league_psyonix_2015_37.jpg", "https://img.gamebrain.co/games/686/rocket_league_psyonix_2015_16.jpg", "https://img.gamebrain.co/games/684/rocket_league_psyonix_2015_23.jpg", "https://img.gamebrain.co/games/691/rocket_league_psyonix_2015_35.png", "https://img.gamebrain.co/games/681/rocket_league_psyonix_2015_11.jpg", "https://img.gamebrain.co/games/691/rocket_league_psyonix_2015_39.jpg", "https://img.gamebrain.co/games/689/rocket_league_psyonix_2015_55.jpg", "https://img.gamebrain.co/games/687/rocket_league_psyonix_2015_62.jpg", "https://img.gamebrain.co/games/684/rocket_league_psyonix_2015_41.jpg", "https://img.gamebrain.co/games/691/rocket_league_psyonix_2015_66.jpg", "https://img.gamebrain.co/games/686/rocket_league_psyonix_2015_21.png", "https://img.gamebrain.co/games/686/rocket_league_psyonix_2015_25.jpg", "https://img.gamebrain.co/games/690/rocket_league_psyonix_2015_38.jpg", "https://img.gamebrain.co/games/698/rocket_league_psyonix_2015_69.png", "https://img.gamebrain.co/games/690/rocket_league_psyonix_2015_29.jpg", "https://img.gamebrain.co/games/687/rocket_league_psyonix_2015_80.jpg", "https://img.gamebrain.co/games/685/rocket_league_psyonix_2015_24.jpg", "https://img.gamebrain.co/games/683/rocket_league_psyonix_2015_31.jpg", "https://img.gamebrain.co/games/690/rocket_league_psyonix_2015_56.jpg", "https://img.gamebrain.co/games/683/rocket_league_psyonix_2015_40.jpg", "https://img.gamebrain.co/games/686/rocket_league_psyonix_2015_61.jpg", "https://img.gamebrain.co/games/685/rocket_league_psyonix_2015_15.jpg", "https://img.gamebrain.co/games/688/rocket_league_psyonix_2015_27.jpg" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257157932/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/T9ze28cUjHM",
+      "short_description": "Rocket League is a free-to-play Science Fiction Shooter game that combines high-octane arcade-style soccer with vehicular mayhem. Play locally with 2 players, or online with friends in co-op and multiplayer modes. Compete in tournaments, unlock items, and complete challenges, with cross-platform progression and ranked competitive modes. Experience a unique blend of sports and driving action!"
+    },
+    
+    {
+      "id": 97611,
+      "year": 2025.0,
+      "name": "My Summer Car",
+      "genre": "Open World Racing",
+      "image": "https://img.gamebrain.co/games/899/my_summer_car_amistech_2016_6.jpg",
+      "link": "https://gamebrain.co/game/my-summer-car-uh",
+      "rating": {
+        "mean": 0.930847,
+        "count": 54748.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/1/my_summer_car_amistech_2016_129.jpg", "https://img.gamebrain.co/games/955/my_summer_car_amistech_2016_37.png", "https://img.gamebrain.co/games/997/my_summer_car_amistech_2016_134.jpg", "https://img.gamebrain.co/games/2/my_summer_car_amistech_2016_139.jpg", "https://img.gamebrain.co/games/949/my_summer_car_amistech_2016_26.jpg", "https://img.gamebrain.co/games/951/my_summer_car_amistech_2016_33.png", "https://img.gamebrain.co/games/998/my_summer_car_amistech_2016_135.jpg", "https://img.gamebrain.co/games/997/my_summer_car_amistech_2016_116.jpg", "https://img.gamebrain.co/games/994/my_summer_car_amistech_2016_113.jpg", "https://img.gamebrain.co/games/0/my_summer_car_amistech_2016_128.jpg", "https://img.gamebrain.co/games/996/my_summer_car_amistech_2016_142.jpg", "https://img.gamebrain.co/games/956/my_summer_car_amistech_2016_78.jpg", "https://img.gamebrain.co/games/997/my_summer_car_amistech_2016_125.jpg", "https://img.gamebrain.co/games/949/my_summer_car_amistech_2016_31.png", "https://img.gamebrain.co/games/952/my_summer_car_amistech_2016_34.png", "https://img.gamebrain.co/games/996/my_summer_car_amistech_2016_133.jpg", "https://img.gamebrain.co/games/1/my_summer_car_amistech_2016_138.jpg", "https://img.gamebrain.co/games/951/my_summer_car_amistech_2016_28.jpg", "https://img.gamebrain.co/games/995/my_summer_car_amistech_2016_141.jpg", "https://img.gamebrain.co/games/944/my_summer_car_amistech_2016_30.jpg", "https://img.gamebrain.co/games/953/my_summer_car_amistech_2016_35.png", "https://img.gamebrain.co/games/952/my_summer_car_amistech_2016_83.jpg", "https://img.gamebrain.co/games/999/my_summer_car_amistech_2016_127.jpg", "https://img.gamebrain.co/games/995/my_summer_car_amistech_2016_132.jpg", "https://img.gamebrain.co/games/999/my_summer_car_amistech_2016_136.jpg", "https://img.gamebrain.co/games/952/my_summer_car_amistech_2016_29.jpg", "https://img.gamebrain.co/games/0/my_summer_car_amistech_2016_137.jpg", "https://img.gamebrain.co/games/956/my_summer_car_amistech_2016_38.png", "https://img.gamebrain.co/games/998/my_summer_car_amistech_2016_126.jpg", "https://img.gamebrain.co/games/955/my_summer_car_amistech_2016_95.jpg", "https://img.gamebrain.co/games/993/my_summer_car_amistech_2016_130.jpg", "https://img.gamebrain.co/games/994/my_summer_car_amistech_2016_140.jpg", "https://img.gamebrain.co/games/992/my_summer_car_amistech_2016_111.jpg", "https://img.gamebrain.co/games/999/my_summer_car_amistech_2016_118.jpg", "https://img.gamebrain.co/games/950/my_summer_car_amistech_2016_32.png", "https://img.gamebrain.co/games/957/my_summer_car_amistech_2016_39.png" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257086001/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/FV0AgsVgTTQ",
+      "short_description": "In My Summer Car, you assemble and maintain a 1990's Finnish countryside car, while managing your character's physical needs. Once your car is operational, participate in various activities, upgrade it with ordered parts, or tune it for races. With multiple vehicles available, the game offers a rich and detailed car customization and care experience."
+    }
+  ],
+  "sorting_options": [
+    {
+      "name": "Rating",
+      "sort": "DESC",
+      "key": "computed_rating"
+    },
+    {
+      "name": "Price",
+      "sort": "ASC",
+      "key": "price"
+    },
+    {
+      "name": "Release Date",
+      "sort": "DESC",
+      "key": "release_date"
+    }
+  ]
+}

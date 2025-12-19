@@ -1,0 +1,145 @@
+{
+  "sorting": {
+    "key": null,
+    "direction": null
+  },
+  "active_filter_options": [
+    {
+      "key": "genre",
+      "connection": "AND",
+      "values": [
+        {
+          "match": "adventure",
+          "value": "adventure"
+        }
+      ]
+    }
+  ],
+  "query": "adventure",
+  "total_results": 148165,
+  "limit": 10,
+  "offset": 0,
+  "results": [
+    {
+      "id": 104935,
+      "year": 2023.0,
+      "name": "Baldur's Gate 3",
+      "genre": "Tactical Role Playing",
+      "image": "https://img.gamebrain.co/games/155/baldurs_gate_3_larian_2020_66.jpg",
+      "link": "https://gamebrain.co/game/baldurs-gate-3",
+      "rating": {
+        "mean": 0.9589789637681159,
+        "count": 708249.0
+      },
+      "adult_only": true,
+      "screenshots": [ "https://img.gamebrain.co/games/195/baldurs_gate_3_larian_2020_112.jpg", "https://img.gamebrain.co/games/299/baldurs_gate_3_larian_2020_10506.jpg", "https://img.gamebrain.co/games/149/baldurs_gate_3_larian_2020_42.jpg", "https://img.gamebrain.co/games/199/baldurs_gate_3_larian_2020_125.jpg", "https://img.gamebrain.co/games/293/baldurs_gate_3_larian_2020_10500.jpg", "https://img.gamebrain.co/games/195/baldurs_gate_3_larian_2020_103.jpg", "https://img.gamebrain.co/games/294/baldurs_gate_3_larian_2020_10501.jpg", "https://img.gamebrain.co/games/295/baldurs_gate_3_larian_2020_10502.jpg", "https://img.gamebrain.co/games/309/baldurs_gate_3_larian_2020_10498.jpg", "https://img.gamebrain.co/games/149/baldurs_gate_3_larian_2020_24.jpg", "https://img.gamebrain.co/games/153/baldurs_gate_3_larian_2020_28.jpg", "https://img.gamebrain.co/games/308/baldurs_gate_3_larian_2020_10484.png", "https://img.gamebrain.co/games/156/baldurs_gate_3_larian_2020_67.jpg", "https://img.gamebrain.co/games/310/baldurs_gate_3_larian_2020_10499.jpg", "https://img.gamebrain.co/games/196/baldurs_gate_3_larian_2020_122.jpg", "https://img.gamebrain.co/games/153/baldurs_gate_3_larian_2020_64.jpg", "https://img.gamebrain.co/games/200/baldurs_gate_3_larian_2020_108.jpg", "https://img.gamebrain.co/games/304/baldurs_gate_3_larian_2020_10475.jpg", "https://img.gamebrain.co/games/301/baldurs_gate_3_larian_2020_10472.jpg", "https://img.gamebrain.co/games/196/baldurs_gate_3_larian_2020_104.jpg", "https://img.gamebrain.co/games/158/baldurs_gate_3_larian_2020_65.png", "https://img.gamebrain.co/games/193/baldurs_gate_3_larian_2020_110.jpg", "https://img.gamebrain.co/games/301/baldurs_gate_3_larian_2020_10490.jpg", "https://img.gamebrain.co/games/198/baldurs_gate_3_larian_2020_124.jpg", "https://img.gamebrain.co/games/302/baldurs_gate_3_larian_2020_10491.jpg", "https://img.gamebrain.co/games/306/baldurs_gate_3_larian_2020_10495.jpg", "https://img.gamebrain.co/games/309/baldurs_gate_3_larian_2020_10489.jpg", "https://img.gamebrain.co/games/308/baldurs_gate_3_larian_2020_10488.jpg", "https://img.gamebrain.co/games/308/baldurs_gate_3_larian_2020_10497.jpg", "https://img.gamebrain.co/games/303/baldurs_gate_3_larian_2020_10492.jpg", "https://img.gamebrain.co/games/304/baldurs_gate_3_larian_2020_10493.jpg", "https://img.gamebrain.co/games/305/baldurs_gate_3_larian_2020_10494.jpg", "https://img.gamebrain.co/games/194/baldurs_gate_3_larian_2020_102.jpg", "https://img.gamebrain.co/games/308/baldurs_gate_3_larian_2020_10479.jpg", "https://img.gamebrain.co/games/194/baldurs_gate_3_larian_2020_111.jpg", "https://img.gamebrain.co/games/306/baldurs_gate_3_larian_2020_10477.jpg", "https://img.gamebrain.co/games/307/baldurs_gate_3_larian_2020_10478.jpg", "https://img.gamebrain.co/games/300/baldurs_gate_3_larian_2020_10480.jpg" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256961600/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/FXyldfVAF9A",
+      "short_description": "In Baldur's Gate 3, players embark on a journey through the ruined city of Baldur's Gate and beyond. With a focus on character development and party-based combat, players engage in strategic battles, interact with a rich cast of characters, and navigate a complex narrative filled with moral dilemmas. The game utilizes a real-time with pause combat system and is set in the popular Dungeons & Dragons tabletop role-playing game universe."
+    },
+ 
+    {
+      "id": 15174,
+      "year": 2011.0,
+      "name": "Portal 2",
+      "genre": "Platformer",
+      "image": "https://img.gamebrain.co/games/422/portal_2_valve_2011_4.jpg",
+      "link": "https://gamebrain.co/game/portal-2-2011",
+      "rating": {
+        "mean": 0.9603845494257037,
+        "count": 299612.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/475/portal_2_valve_2011_90.jpg", "https://img.gamebrain.co/games/476/portal_2_valve_2011_91.jpg", "https://img.gamebrain.co/games/472/portal_2_valve_2011_51.jpg", "https://img.gamebrain.co/games/478/portal_2_valve_2011_93.jpg", "https://img.gamebrain.co/games/477/portal_2_valve_2011_92.jpg", "https://img.gamebrain.co/games/473/portal_2_valve_2011_52.jpg", "https://img.gamebrain.co/games/479/portal_2_valve_2011_94.jpg", "https://img.gamebrain.co/games/470/portal_2_valve_2011_22.jpg", "https://img.gamebrain.co/games/482/portal_2_valve_2011_88.jpg", "https://img.gamebrain.co/games/483/portal_2_valve_2011_89.jpg", "https://img.gamebrain.co/games/471/portal_2_valve_2011_23.jpg", "https://img.gamebrain.co/games/468/portal_2_valve_2011_20.jpg", "https://img.gamebrain.co/games/477/portal_2_valve_2011_47.jpg", "https://img.gamebrain.co/games/472/portal_2_valve_2011_42.jpg", "https://img.gamebrain.co/games/471/portal_2_valve_2011_41.jpg" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/5787/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/A0K5EXfgJnk",
+      "short_description": null
+    },
+    {
+      "id": 74021,
+      "year": 2016.0,
+      "name": "Stardew Valley",
+      "genre": "Role Playing",
+      "image": "https://img.gamebrain.co/games/828/stardew_valley_concernedape_2017_4.jpg",
+      "link": "https://gamebrain.co/game/stardew-valley",
+      "rating": {
+        "mean": 0.936539,
+        "count": 277972.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/28/stardew_valley_concernedape_2016_10165.jpg", "https://img.gamebrain.co/games/26/stardew_valley_concernedape_2016_10154.jpg", "https://img.gamebrain.co/games/24/stardew_valley_concernedape_2016_10143.jpg", "https://img.gamebrain.co/games/23/stardew_valley_concernedape_2016_10160.jpg", "https://img.gamebrain.co/games/32/stardew_valley_concernedape_2016_10169.jpg", "https://img.gamebrain.co/games/26/stardew_valley_concernedape_2016_10145.jpg", "https://img.gamebrain.co/games/28/stardew_valley_concernedape_2016_10152.png", "https://img.gamebrain.co/games/30/stardew_valley_concernedape_2016_10158.jpg", "https://img.gamebrain.co/games/30/stardew_valley_concernedape_2016_10167.jpg", "https://img.gamebrain.co/games/25/stardew_valley_concernedape_2016_10531.jpg", "https://img.gamebrain.co/games/29/stardew_valley_concernedape_2016_10157.jpg", "https://img.gamebrain.co/games/26/stardew_valley_concernedape_2016_10172.jpg", "https://img.gamebrain.co/games/32/stardew_valley_concernedape_2016_10147.png", "https://img.gamebrain.co/games/27/stardew_valley_concernedape_2016_10146.jpg", "https://img.gamebrain.co/games/26/stardew_valley_concernedape_2016_10163.jpg", "https://img.gamebrain.co/games/878/stardew_valley_concernedape_2016_34.jpg", "https://img.gamebrain.co/games/34/stardew_valley_concernedape_2016_10149.png", "https://img.gamebrain.co/games/24/stardew_valley_concernedape_2016_10161.jpg", "https://img.gamebrain.co/games/874/stardew_valley_concernedape_2016_30.jpg", "https://img.gamebrain.co/games/26/stardew_valley_concernedape_2016_10150.png", "https://img.gamebrain.co/games/27/stardew_valley_concernedape_2016_10151.png", "https://img.gamebrain.co/games/25/stardew_valley_concernedape_2016_10153.jpg", "https://img.gamebrain.co/games/24/stardew_valley_concernedape_2016_10170.jpg", "https://img.gamebrain.co/games/31/stardew_valley_concernedape_2016_10159.jpg", "https://img.gamebrain.co/games/29/stardew_valley_concernedape_2016_10166.jpg", "https://img.gamebrain.co/games/31/stardew_valley_concernedape_2016_10168.jpg", "https://img.gamebrain.co/games/27/stardew_valley_concernedape_2016_10164.jpg", "https://img.gamebrain.co/games/27/stardew_valley_concernedape_2016_10155.jpg", "https://img.gamebrain.co/games/25/stardew_valley_concernedape_2016_10162.jpg", "https://img.gamebrain.co/games/33/stardew_valley_concernedape_2016_10148.png", "https://img.gamebrain.co/games/28/stardew_valley_concernedape_2016_10156.jpg", "https://img.gamebrain.co/games/27/stardew_valley_concernedape_2016_10173.jpg", "https://img.gamebrain.co/games/25/stardew_valley_concernedape_2016_10171.jpg" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256815967/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/NjvFF2Kvx1U",
+      "short_description": "In Stardew Valley, restore a neglected farm, build relationships with villagers, and explore vast caves for resources. Customize your farmer and farm, and take part in seasonal activities and festivals. With a variety of sustainable activities and multilayered relationships, this peaceful, engaging experience offers endless possibilities for creativity and personal growth."
+    },
+    {
+      "id": 127011,
+      "year": 2022.0,
+      "name": "Raft",
+      "genre": "Survival Simulation",
+      "image": "https://img.gamebrain.co/games/501/raft_redbeet_2018_23.jpg",
+      "link": "https://gamebrain.co/game/raft",
+      "rating": {
+        "mean": 0.9161758333333334,
+        "count": 228887.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/547/raft_redbeet_2022_116.jpg", "https://img.gamebrain.co/games/504/raft_redbeet_2022_76.jpg", "https://img.gamebrain.co/games/495/raft_redbeet_2022_31.jpg", "https://img.gamebrain.co/games/499/raft_redbeet_2022_71.jpg", "https://img.gamebrain.co/games/549/raft_redbeet_2022_118.jpg", "https://img.gamebrain.co/games/502/raft_redbeet_2022_29.jpg", "https://img.gamebrain.co/games/496/raft_redbeet_2022_32.jpg", "https://img.gamebrain.co/games/550/raft_redbeet_2022_124.png", "https://img.gamebrain.co/games/498/raft_redbeet_2022_70.jpg", "https://img.gamebrain.co/games/544/raft_redbeet_2022_122.jpg", "https://img.gamebrain.co/games/497/raft_redbeet_2022_33.jpg", "https://img.gamebrain.co/games/500/raft_redbeet_2022_81.jpg", "https://img.gamebrain.co/games/544/raft_redbeet_2022_113.jpg", "https://img.gamebrain.co/games/501/raft_redbeet_2022_82.jpg", "https://img.gamebrain.co/games/509/raft_redbeet_2022_99.jpg", "https://img.gamebrain.co/games/542/raft_redbeet_2022_120.jpg", "https://img.gamebrain.co/games/550/raft_redbeet_2022_119.jpg", "https://img.gamebrain.co/games/509/raft_redbeet_2022_68.png", "https://img.gamebrain.co/games/542/raft_redbeet_2022_111.jpg", "https://img.gamebrain.co/games/500/raft_redbeet_2022_90.jpg", "https://img.gamebrain.co/games/546/raft_redbeet_2022_115.jpg", "https://img.gamebrain.co/games/508/raft_redbeet_2022_67.png", "https://img.gamebrain.co/games/548/raft_redbeet_2022_117.jpg", "https://img.gamebrain.co/games/507/raft_redbeet_2022_66.png", "https://img.gamebrain.co/games/507/raft_redbeet_2022_88.jpg", "https://img.gamebrain.co/games/541/raft_redbeet_2022_110.jpg", "https://img.gamebrain.co/games/549/raft_redbeet_2022_109.jpg", "https://img.gamebrain.co/games/506/raft_redbeet_2022_78.jpg", "https://img.gamebrain.co/games/510/raft_redbeet_2022_69.png", "https://img.gamebrain.co/games/543/raft_redbeet_2022_121.jpg", "https://img.gamebrain.co/games/545/raft_redbeet_2022_123.jpg", "https://img.gamebrain.co/games/505/raft_redbeet_2022_64.png", "https://img.gamebrain.co/games/545/raft_redbeet_2022_114.jpg", "https://img.gamebrain.co/games/505/raft_redbeet_2022_77.jpg", "https://img.gamebrain.co/games/494/raft_redbeet_2022_30.jpg", "https://img.gamebrain.co/games/504/raft_redbeet_2022_94.jpg", "https://img.gamebrain.co/games/543/raft_redbeet_2022_112.jpg" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256717705/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/eQQISPD58H4",
+      "short_description": "\"Raft\" is a survival game where you and your friends must navigate a perilous ocean to stay alive. Starting with just a hook, you'll gather debris to expand your raft and set sail towards dangerous islands. Watch out for the man-eating shark and other hazards as you search for the last remnants of civilization. Your goal is to build a worthy floating home and survive the epic adventure across the sea."
+    },
+    {
+      "id": 19463,
+      "year": 2017.0,
+      "name": "Doki Doki Literature Club",
+      "genre": "Action",
+      "image": "https://img.gamebrain.co/games/842/doki_doki_literature_club_teamsalvato_2017_31.jpg",
+      "link": "https://gamebrain.co/game/doki-doki-literature-club",
+      "rating": {
+        "mean": 0.9695900000000001,
+        "count": 122637.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/848/doki_doki_literature_club_teamsalvato_2017_46.jpg", "https://img.gamebrain.co/games/845/doki_doki_literature_club_teamsalvato_2017_16.jpg", "https://img.gamebrain.co/games/843/doki_doki_literature_club_teamsalvato_2017_32.jpg", "https://img.gamebrain.co/games/845/doki_doki_literature_club_teamsalvato_2017_12.png", "https://img.gamebrain.co/games/851/doki_doki_literature_club_teamsalvato_2017_18.png", "https://img.gamebrain.co/games/847/doki_doki_literature_club_teamsalvato_2017_45.jpg", "https://img.gamebrain.co/games/849/doki_doki_literature_club_teamsalvato_2017_47.jpg", "https://img.gamebrain.co/games/848/doki_doki_literature_club_teamsalvato_2017_19.jpg", "https://img.gamebrain.co/games/842/doki_doki_literature_club_teamsalvato_2017_31.jpg", "https://img.gamebrain.co/games/850/doki_doki_literature_club_teamsalvato_2017_48.jpg", "https://img.gamebrain.co/games/849/doki_doki_literature_club_teamsalvato_2017_38.jpg" ],
+      "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256692832/microtrailer.webm",
+      "gameplay": "https://www.youtube-nocookie.com/embed/msc1n57t-L8",
+      "short_description": "\"Doki Doki Literature Club\" is a free visual novel game featuring cute, stylized art and music. You join the school's literature club, interacting with its four members: the cheerful Sayori, tsundere Natsuki, shy Yuri, and the club leader, Monika. As you progress, the game delves into deeper themes, making it unsuitable for children or those easily disturbed. Note: the game has self-aware elements and contains customizable difficulty settings."
+    },
+   
+    {
+      "id": 1247759,
+      "year": 2019.0,
+      "name": "Minecraft",
+      "genre": "Arcade Role Playing",
+      "image": "https://img.gamebrain.co/games/335/minecraft_mojang_2022_2.jpg",
+      "link": "https://gamebrain.co/game/minecraft",
+      "rating": {
+        "mean": 0.862,
+        "count": 1618320.0
+      },
+      "adult_only": false,
+      "screenshots": [ "https://img.gamebrain.co/games/345/minecraft_mojang_2019_2.png", "https://img.gamebrain.co/games/347/minecraft_mojang_2019_4.png", "https://img.gamebrain.co/games/348/minecraft_mojang_2019_5.png", "https://img.gamebrain.co/games/346/minecraft_mojang_2019_3.png" ],
+      "micro_trailer": null,
+      "gameplay": null,
+      "short_description": "Minecraft is a popular open-world game where players can explore, build, and survive in infinite worlds, either alone or with friends, in both local and massively multiplayer modes. The game offers creative and survival modes, with unlimited resources or the need to mine and craft weapons and armor to fend off mobs. Additional features include the marketplace, slash commands, and add-ons for further customization."
+    }
+  ],
+  "sorting_options": [
+    {
+      "name": "Rating",
+      "sort": "DESC",
+      "key": "computed_rating"
+    },
+    {
+      "name": "Price",
+      "sort": "ASC",
+      "key": "price"
+    },
+    {
+      "name": "Release Date",
+      "sort": "DESC",
+      "key": "release_date"
+    }
+  ]
+}
