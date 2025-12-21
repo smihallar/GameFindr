@@ -9,6 +9,7 @@ namespace GameFindr.Data.Models
 {
     public class Game
     {
+        // All endpoints
         [JsonPropertyName("id")]
         public int? GameBrainId { get; set; }
 
@@ -35,5 +36,26 @@ namespace GameFindr.Data.Models
 
         [JsonPropertyName("short_description")]
         public string? ShortDescription { get; set; }
+
+
+        // Game details
+
+        [JsonPropertyName("description")]
+        public string? Description { get; set; }
+
+        [JsonPropertyName("developer")]
+        public string? Developer { get; set; }
+
+        [JsonPropertyName("platforms")]
+        public List<ResponseItem>? Platforms { get; set; }
+
+        [JsonPropertyName("genres")]
+        public List<ResponseItem>? Genres { get; set; }
+
+        [JsonPropertyName("themes")]
+        public List<ResponseItem>? Themes { get; set; }
+
+        [JsonPropertyName("play_modes")]
+        public List<ResponseItem>? PlayModes { get; set; }
     }
 }
