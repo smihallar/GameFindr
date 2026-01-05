@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using GameFindr.Data.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +8,10 @@ using System.Threading.Tasks;
 
 namespace GameFindr.Viewmodels
 {
-    public class SimilarGamesViewModel
+    [QueryProperty("SimilarGames", "SimilarGames")]
+    public partial class SimilarGamesViewModel : ViewModelBase
     {
-        // For a box with similar games (if button is pressed)
+        [ObservableProperty]
+        List<Game> similarGames;
     }
 }
