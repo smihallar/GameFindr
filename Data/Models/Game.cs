@@ -47,15 +47,15 @@ namespace GameFindr.Data.Models
         public string? Developer { get; set; }
 
         [JsonPropertyName("platforms")]
-        public List<ResponseItem>? Platforms { get; set; }
+        public List<ValueName>? Platforms { get; set; }
 
         [JsonPropertyName("genres")]
-        public List<ResponseItem>? Genres { get; set; }
+        public List<ValueName>? Genres { get; set; }
 
         [JsonPropertyName("themes")]
-        public List<ResponseItem>? Themes { get; set; }
+        public List<ValueName>? Themes { get; set; }
 
         [JsonPropertyName("play_modes")]
-        public List<ResponseItem>? PlayModes { get; set; }
+        public List<ValueName>? PlayModes { get; set; }
     }
 }

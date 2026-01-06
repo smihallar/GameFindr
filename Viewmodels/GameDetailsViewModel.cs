@@ -1,17 +1,46 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using GameFindr.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
+using GameFindr.Services;
 using System.Threading.Tasks;
 
 namespace GameFindr.Viewmodels
 {
     public partial class GameDetailsViewModel : ViewModelBase
     {
+        readonly GameService gameService;
+
+        public GameDetailsViewModel(GameService gameService)
+        {
+            this.gameService = gameService;
+        }
+
         [ObservableProperty]
-        Game game;
+        Game? game;
+
+        [ObservableProperty]
+        bool isLoading;
+
+        [ObservableProperty]
+        string? errorMessage;
+
+        public async Task LoadAsync(int id)
+        {
+            IsLoading = true;
+            ErrorMessage = null;
+
+            try
+            {
+                var details = await gameService.GetGameDetailsByIdAsync(id);
+                Game = details;
+            }
+            catch (System.Exception ex)
+            {
+                ErrorMessage = ex.Message;
+            }
+            finally
+            {
+                IsLoading = false;
+            }
+        }
     }
 }

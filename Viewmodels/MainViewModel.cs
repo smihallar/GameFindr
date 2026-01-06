@@ -1,7 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using GameFindr.Data.Models;
+using GameFindr.Pages;
 using GameFindr.Services;
+using Microsoft.Maui.Controls;
 using System.Collections.ObjectModel;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -31,26 +33,17 @@ namespace GameFindr.Viewmodels
         [ObservableProperty]
         bool hasMore = true;
 
+        [ObservableProperty]
+        string? errorMessage;
+
         [RelayCommand]
         async Task SearchAsync()
         {
             if (string.IsNullOrWhiteSpace(SearchQuery))
                 return;
 
-            IsLoading = true;
-            offset = 0;
-            HasMore = true;
-            Games.Clear();
+            await Shell.Current.GoToAsync($"{nameof(GameListPage)}?query={System.Uri.EscapeDataString(SearchQuery)}");
 
-            var results = await gameService.GetGamesBySearchAsync(SearchQuery, offset);
-            foreach (var g in results)
-                Games.Add(g);
-
-            offset += results.Count;
-            if (results.Count < PageSize)
-                HasMore = false;
-
-            IsLoading = false;
         }
 
         [RelayCommand]
@@ -60,14 +53,32 @@ namespace GameFindr.Viewmodels
                 return;
 
             IsLoading = true;
-            var results = await gameService.GetGamesBySearchAsync(SearchQuery, offset);
-            foreach (var g in results)
-                Games.Add(g);
+            ErrorMessage = null;
 
-            offset += results.Count;
-            if (results.Count < PageSize)
-                HasMore = false;
-            IsLoading = false;
+            try
+            {
+                var results = await gameService.GetGamesBySearchAsync(SearchQuery, offset);
+                foreach (var g in results)
+                    Games.Add(g);
+
+                offset += results.Count;
+                if (results.Count < PageSize)
+                    HasMore = false;
+            }
+            catch (HttpRequestException httpEx)
+            {
+                ErrorMessage = httpEx.Message;
+                await Shell.Current.DisplayAlert("Network error", httpEx.Message, "OK");
+            }
+            catch (System.Exception ex)
+            {
+                ErrorMessage = ex.Message;
+                await Shell.Current.DisplayAlert("Error", ex.Message, "OK");
+            }
+            finally
+            {
+                IsLoading = false;
+            }
         }
     }
 }

@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace GameFindr.Data.Models
+namespace GameFindr.Data.Dtos
 {
-    public class ResponseItem
+    public class ValueNameResponse
     {
+        [JsonPropertyName("value")]
         public string? Value { get; set; }
+
+        [JsonPropertyName("name")]
         public string? Name { get; set; }
     }
 }

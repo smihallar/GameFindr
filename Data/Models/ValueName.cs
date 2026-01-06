@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GameFindr.Data.Models
 {
-    public class GamesResponse
+    public class ValueName
     {
-        public int? Total { get; set; }
-        public List<Game>? Games { get; set; }
+        public string? Value { get; set; }
+        public string? Name { get; set; }
     }
 }

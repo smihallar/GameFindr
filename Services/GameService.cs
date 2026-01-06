@@ -1,72 +1,166 @@
-﻿using GameFindr.Data.Models;
+﻿using GameFindr.Data.Dtos;
+using GameFindr.Data.Models;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
-using static System.Net.WebRequestMethods;
 
 namespace GameFindr.Services
 {
     public class GameService
     {
-        HttpClient httpClient;
-        List<Game> games = new List<Game>();
-        string apiKey = "ed284d0f5e3d4106acaa551ef8a61c1b";
-        string baseUrl = "https://api.gamebrain.co/v1/games";
-
+        readonly HttpClient httpClient;
+        readonly JsonSerializerOptions jsonOptions = new() { PropertyNameCaseInsensitive = true };
         public GameService(HttpClient httpClient)
         {
             this.httpClient = httpClient;
-            httpClient.DefaultRequestHeaders.Add("x-api-key", apiKey);
         }
 
         public async Task<List<Game>> GetGamesBySearchAsync(string search, int offset)
         {
-            var query = search.Replace(" ", "+"); // GameBrain accepts + in query
-            var requestUrl = $"{baseUrl}?query={Uri.EscapeDataString(query)}&offset={offset}&limit=20"; // offset and limit for pagination
-
-            var response = await httpClient.GetAsync(requestUrl);
-            if (response.IsSuccessStatusCode)
+            try
             {
-                var json = await response.Content.ReadAsStringAsync();
-                var gamesResponse = JsonSerializer.Deserialize<GamesResponse>(json);
-                if (gamesResponse?.Total > 0 && gamesResponse.Games != null)
-                {
-                    games.AddRange(gamesResponse.Games);
-                }
-            }
-            return games;
-        }
+                var query = search?.Replace(" ", "+") ?? string.Empty;
+                var requestUrl = $"?query={Uri.EscapeDataString(query)}&offset={offset}&limit=10";
 
+                using var response = await httpClient.GetAsync(requestUrl);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    var message = string.IsNullOrWhiteSpace(errorContent) ? (response.ReasonPhrase ?? "Request failed") : errorContent;
+                    throw new HttpRequestException(message);
+                }
+
+                var content = await response.Content.ReadAsStringAsync();
+                var listResponse = JsonSerializer.Deserialize<GameListResponse>(content, jsonOptions);
+                if (listResponse?.Games == null || listResponse.Games.Count == 0)
+                    return new List<Game>();
+
+                return listResponse.Games.Select(MapFromGameResponse).ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new HttpRequestException(ex.Message, ex);
+            }
+        }
         public async Task<Game?> GetGameDetailsByIdAsync(int id)
         {
-            var requestUrl = $"{baseUrl}/{id}";
-            var response = await httpClient.GetAsync(requestUrl);
-            if (response.IsSuccessStatusCode)
+            try
             {
-                var json = await response.Content.ReadAsStringAsync();
-                var game = JsonSerializer.Deserialize<Game>(json);
-                return game;
+                var requestUrl = $"{id}";
+
+                using var response = await httpClient.GetAsync(requestUrl);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    var message = string.IsNullOrWhiteSpace(errorContent) ? (response.ReasonPhrase ?? "Request failed") : errorContent;
+                    throw new HttpRequestException(message);
+                }
+
+                var content = await response.Content.ReadAsStringAsync();
+                var details = JsonSerializer.Deserialize<GameDetailsResponse>(content, jsonOptions);
+                if (details is null)
+                    throw new InvalidOperationException("Unexpected response format for game details.");
+
+                return MapFromGameDetailsResponse(details);
             }
-            return null;
+            catch (Exception ex)
+            { 
+                throw new HttpRequestException(ex.Message, ex);
+            }
         }
 
         public async Task<List<Game>> GetSimilarGamesByIdAsync(int id)
         {
-            var requestUrl = $"{baseUrl}/{id}/similar";
-            var response = await httpClient.GetAsync(requestUrl);
-            if (response.IsSuccessStatusCode)
+            try
             {
-                var json = await response.Content.ReadAsStringAsync();
-                var gamesResponse = JsonSerializer.Deserialize<GamesResponse>(json);
-                if(gamesResponse?.Total > 0 && gamesResponse.Games != null)
+                var requestUrl = $"{id}/similar";
+
+                using var response = await httpClient.GetAsync(requestUrl);
+
+                if (!response.IsSuccessStatusCode)
                 {
-                    games.AddRange(gamesResponse.Games);
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    var message = string.IsNullOrWhiteSpace(errorContent) ? (response.ReasonPhrase ?? "Request failed") : errorContent;
+                    throw new HttpRequestException(message);
                 }
+
+                var content = await response.Content.ReadAsStringAsync();
+                var listResponse = JsonSerializer.Deserialize<GameListResponse>(content, jsonOptions);
+                if (listResponse?.Games == null || listResponse.Games.Count == 0)
+                    return new List<Game>();
+
+                return listResponse.Games.Select(MapFromGameResponse).ToList();
             }
-            return games;
+            catch (Exception ex)
+            {
+                throw new HttpRequestException(ex.Message, ex);
+            }
+        }
+
+        // Helpers for mapping DTOs to Models
+
+        Game MapFromGameResponse(GameResponse dto)
+        {
+            return new Game
+            {
+                GameBrainId = dto.Id,
+                Name = dto.Name,
+                Year = dto.Year.HasValue ? (int?)Convert.ToInt32(dto.Year.Value) : null,
+                Genre = dto.Genre,
+                Image = dto.Image ?? "default_image.png",
+                Rating = MapRating(dto.Rating),
+                AdultOnly = dto.AdultOnly,
+                ScreenshotUrls = dto.Screenshots,
+                ShortDescription = dto.ShortDescription
+            };
+        }
+
+        Game MapFromGameDetailsResponse(GameDetailsResponse dto)
+        {
+            return new Game
+            {
+                GameBrainId = dto.Id,
+                Name = dto.Name,
+                Year = dto.Year.HasValue ? (int?)Convert.ToInt32(dto.Year.Value) : null,
+                Image = dto.Image ?? "default_image.png",
+                Rating = MapRating(dto.Rating),
+                Description = dto.Description,
+                ShortDescription = dto.ShortDescription,
+                Developer = dto.Developer,
+                Genre = dto.Genre,
+                ScreenshotUrls = dto.Screenshots,
+                Platforms = MapValueNameList(dto.Platforms),
+                Genres = MapValueNameList(dto.Genres),
+                Themes = MapValueNameList(dto.Themes),
+                PlayModes = MapValueNameList(dto.PlayModes),
+                AdultOnly = dto.AdultOnly
+            };
+        }
+
+        Rating? MapRating(RatingResponse? dto)
+        {
+            if (dto is null) return null;
+            return new Rating
+            {
+                Mean = dto.Mean,
+                Count = dto.Count.HasValue ? (double?)dto.Count.Value : null
+            };
+        }
+
+        List<ValueName>? MapValueNameList(List<ValueNameResponse>? dtos)
+        {
+            if (dtos is null) return null;
+            return dtos.Select(d => new ValueName
+            {
+                Value = d.Value,
+                Name = d.Name
+            }).ToList();
         }
     }
 }

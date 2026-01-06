@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GameFindr.Pages.GameListPage"
+             Title="Search Results">
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto,*,Auto" Padding="8">
+            <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" HeightRequest="40" />
+
+            <CollectionView Grid.Row="1"
+                            x:Name="ResultsCollection"
+                            ItemsSource="{Binding Games}"
+                            SelectionMode="Single"
+                            SelectionChanged="ResultsCollection_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="8">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding Image}" Aspect="AspectFill" WidthRequest="72" HeightRequest="72" />
+                            <StackLayout Grid.Column="1" Spacing="2">
+                                <Label Text="{Binding Name}" FontAttributes="Bold" />
+                                <Label Text="{Binding ShortDescription}" LineBreakMode="TailTruncation" MaxLines="2" FontSize="Small"/>
+                            </StackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" Spacing="12" Padding="8">
+                <Label Text="{Binding ErrorMessage}" TextColor="Tomato" VerticalOptions="Center" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
