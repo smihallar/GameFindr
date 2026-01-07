@@ -2,9 +2,16 @@
 <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:GameFindr"
+             xmlns:converters="clr-namespace:GameFindr.Converters"
              x:Class="GameFindr.App">
     <Application.Resources>
         <ResourceDictionary>
+            <converters:StringNotNullOrEmptyConverter x:Key="StringNotNullOrEmptyConverter" />
+            <converters:NullToBoolConverter x:Key="NullToBoolConverter" />
+            <converters:RatingToStarsConverter x:Key="RatingToStarsConverter" />
+            <converters:CollectionHasItemsConverter x:Key="CollectionHasItemsConverter" />
+            <converters:ListToStringConverter x:Key="ListToStringConverter" />
+            <converters:BooleanToYesNoConverter x:Key="BooleanToYesNoConverter" />
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />

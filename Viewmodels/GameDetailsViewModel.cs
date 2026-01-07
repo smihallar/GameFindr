@@ -31,6 +31,11 @@ namespace GameFindr.Viewmodels
             try
             {
                 var details = await gameService.GetGameDetailsByIdAsync(id);
+                if(details == null)
+                {
+                    ErrorMessage = "Game details not found.";
+                    return;
+                }
                 Game = details;
             }
             catch (System.Exception ex)

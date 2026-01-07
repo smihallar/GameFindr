@@ -20,13 +20,14 @@ namespace GameFindr
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Typographica.ttf", "Typographica");
                 });
 
 
             builder.Services.AddHttpClient<GameService>(client =>
             {
-                var baseUrl = "https://api.gamebrain.co/v1/games";
-                var apiKey = "ed284d0f5e3d4106acaa551ef8a61c1b";
+                var baseUrl = "https://api.gamebrain.co/v1/games/";
+                var apiKey = "8326cb610c964c23ae992ddfd7030a5b";
                 client.BaseAddress = new Uri(baseUrl);
                 if (!string.IsNullOrWhiteSpace(apiKey))
                 {
@@ -40,6 +41,8 @@ namespace GameFindr
             builder.Services.AddTransient<GameListViewModel>();
             builder.Services.AddTransient<GameDetailsPage>();
             builder.Services.AddTransient<GameDetailsViewModel>();
+            builder.Services.AddTransient<SimilarGamesViewModel>();
+            builder.Services.AddTransient<SimilarGamesPage>();
 
 #if DEBUG
             builder.Logging.AddDebug();

@@ -47,8 +47,15 @@ namespace GameFindr.Viewmodels
             try
             {
                 var results = await gameService.GetGamesBySearchAsync(Query!, 0);
-                foreach (var g in results)
-                    Games.Add(g);
+                if (results.Count > 0)
+                {
+                    foreach (var g in results)
+                        Games.Add(g);
+                }
+                else
+                {
+                    ErrorMessage = "No results found for '" + Query + "'";
+                }
             }
             catch (Exception ex)
             {

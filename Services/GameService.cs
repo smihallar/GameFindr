@@ -23,8 +23,13 @@ namespace GameFindr.Services
         {
             try
             {
-                var query = search?.Replace(" ", "+") ?? string.Empty;
-                var requestUrl = $"?query={Uri.EscapeDataString(query)}&offset={offset}&limit=10";
+                var query = search?.Replace(" ", "+");
+
+                // Extra validation for empty query
+                if (string.IsNullOrWhiteSpace(query))
+                    throw new ArgumentException("Search query cannot be empty.", nameof(search));
+
+                var requestUrl = $"?query={Uri.EscapeDataString(query)}&offset={offset}&limit=20";
 
                 using var response = await httpClient.GetAsync(requestUrl);
 

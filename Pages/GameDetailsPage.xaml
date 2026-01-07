@@ -2,16 +2,107 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GameFindr.Pages.GameDetailsPage"
-             Title="{Binding Game.Name}">
+             Title="{Binding Game.Name}"
+             BackgroundColor="{StaticResource AppBackgroundColor}">
     <ContentPage.Content>
-        <ScrollView Padding="12">
-            <VerticalStackLayout Spacing="12">
+        <ScrollView>
+            <VerticalStackLayout Spacing="12" Padding="12">
                 <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" />
-                <Image Source="{Binding Game.Image}" Aspect="AspectFill" HeightRequest="200" />
-                <Label Text="{Binding Game.Name}" FontAttributes="Bold" FontSize="Large" />
-                <Label Text="{Binding Game.Genre}" FontAttributes="Italic" />
-                <Label Text="{Binding Game.ShortDescription}" />
-                <Label Text="{Binding ErrorMessage}" TextColor="Tomato" IsVisible="{Binding ErrorMessage, Converter={StaticResource StringNotNullOrEmptyConverter}}" />
+                <Image Source="{Binding Game.Image}" Aspect="AspectFit" HeightRequest="200" />
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="{Binding Game.Name}" FontAttributes="Bold" FontSize="Large" />
+                    <Label Text="{Binding Game.Rating.Mean, Converter={StaticResource RatingToStarsConverter}}" />
+
+                    <Label Text="{Binding Game.ShortDescription}" />
+                    <HorizontalStackLayout Spacing="6">
+                        <Label Text="Developer" FontAttributes="Bold"/>
+                        <Label Text="{Binding Game.Developer}" />
+                    </HorizontalStackLayout>
+                    
+                    <Grid ColumnSpacing="6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Genres" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center" />
+                        <Label Text="{Binding Game.Genres, Converter={StaticResource ListToStringConverter}, 
+                            ConverterParameter=Name}" FontAttributes="Italic" Grid.Column="1" HorizontalOptions="Start" />
+                    </Grid>
+
+                   
+                    <Label Text="{Binding ErrorMessage}" TextColor="Tomato" IsVisible="{Binding ErrorMessage, 
+                        Converter={StaticResource StringNotNullOrEmptyConverter}}" />
+
+                    <Grid ColumnSpacing="6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Play modes" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center" />
+                        <Label Text="{Binding Game.PlayModes, Converter={StaticResource ListToStringConverter}, 
+                            ConverterParameter=Name}" FontAttributes="Italic" Grid.Column="1" HorizontalOptions="Start" MaxLines="1"  />
+                    </Grid>
+
+                    <Grid ColumnSpacing="6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Themes" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center" />
+                        <Label Text="{Binding Game.Themes, Converter={StaticResource ListToStringConverter},
+                            ConverterParameter=Name}" FontAttributes="Italic" Grid.Column="1" HorizontalOptions="Start" MaxLines="1" />
+                    </Grid>
+
+                    <Grid ColumnSpacing="6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Adult only" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center" />
+                        <Label Text="{Binding Game.AdultOnly, Converter={StaticResource BooleanToYesNoConverter}}" 
+                               FontAttributes="Italic" Grid.Column="1" HorizontalOptions="Start" MaxLines="1"  />
+                    </Grid>
+
+                    <Grid ColumnSpacing="6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Platforms" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center" />
+                        <Label Text="{Binding Game.Platforms, Converter={StaticResource ListToStringConverter}, 
+                            ConverterParameter=Name}" FontAttributes="Italic" Grid.Column="1" HorizontalOptions="Start" MaxLines="1" />
+                    </Grid>
+
+                </VerticalStackLayout>
+
+                <Label Text="Screenshots" FontAttributes="Bold" FontSize="Medium" IsVisible="{Binding Game.ScreenshotUrls,
+                    Converter={StaticResource CollectionHasItemsConverter}}" />
+                <CarouselView
+                     x:Name="ScreenshotsCarousel"
+                     ItemsSource="{Binding Game.ScreenshotUrls}"
+                     IsVisible="{Binding Game.ScreenshotUrls, Converter={StaticResource CollectionHasItemsConverter}}"
+                     HeightRequest="200"
+                     PeekAreaInsets="30"
+                     Loop="True"
+                     IndicatorView="{x:Reference screenshotIndicator}">     
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding .}" Aspect="AspectFill" HeightRequest="200" />
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+
+                <IndicatorView x:Name="screenshotIndicator"
+                    IsVisible="{Binding Game.ScreenshotUrls, Converter={StaticResource CollectionHasItemsConverter}}"
+                    IndicatorColor="LightGray"
+                    SelectedIndicatorColor="Black"
+                    IndicatorSize="6" />
+
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="8">
+                    <Button Text="◀" Clicked="OnPrevScreenshotClicked" />
+                    <Button Text="▶" Clicked="OnNextScreenshotClicked" />
+                </HorizontalStackLayout>
+                <Button Text="Show similar games" Clicked="OnShowSimilarClicked" BackgroundColor="BlueViolet"/>
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

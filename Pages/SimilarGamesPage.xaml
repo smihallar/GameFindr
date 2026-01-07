@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="GameFindr.Pages.GameListPage"
-             Title="Search Results">
+             x:Class="GameFindr.Pages.SimilarGamesPage"
+             Title="Similar Games">
     <ContentPage.Content>
         <Grid RowDefinitions="Auto,*,Auto" Padding="8">
             <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" HeightRequest="40" />
 
             <CollectionView Grid.Row="1"
-                            x:Name="ResultsCollection"
-                            ItemsSource="{Binding Games}"
-                            SelectionMode="Single"
-                            SelectionChanged="ResultsCollection_SelectionChanged">
+                        x:Name="ResultsCollection"
+                        ItemsSource="{Binding SimilarGames}"
+                        SelectionMode="Single"
+                        SelectionChanged="ResultsCollection_SelectionChanged">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Border
-                            StrokeShape="RoundRectangle 10"
-                            Padding="8"
-                            Margin="6"
-                            Background="{StaticResource CardBackgroundColor}"
-                            StrokeThickness="1">
+                        StrokeShape="RoundRectangle 10"
+                        Padding="8"
+                        Margin="6"
+                        Background="{StaticResource CardBackgroundColor}"
+                        StrokeThickness="1">
                             <Border.Shadow>
                                 <Shadow Brush="#66B0E1" Offset="0,4" Radius="8" Opacity="0.25" />
                             </Border.Shadow>

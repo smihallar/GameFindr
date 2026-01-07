@@ -3,34 +3,33 @@ using GameFindr.Data.Models;
 
 namespace GameFindr.Pages;
 
-[QueryProperty(nameof(Query), "query")]
-public partial class GameListPage : ContentPage
+[QueryProperty(nameof(GameId), "gameId")]
+public partial class SimilarGamesPage : ContentPage
 {
-	readonly GameListViewModel vm;
-	public GameListPage(GameListViewModel vm)
-	{
-		InitializeComponent();
-		this.vm = vm;
-		BindingContext = vm;
+    readonly SimilarGamesViewModel vm;
+
+    public SimilarGamesPage(SimilarGamesViewModel vm)
+    {
+        InitializeComponent();
+        this.vm = vm;
+        BindingContext = vm;
     }
 
-	public string? Query
-	{
-		set => vm.Query = value;
-	}
+    public string? GameId
+    {
+        set => vm.GameId = value;
+    }
+
 
     async void ResultsCollection_SelectionChanged(object? sender, SelectionChangedEventArgs e)
     {
-        // Get selected game
         var selected = e.CurrentSelection?.FirstOrDefault() as Game;
         if (selected is null)
             return;
 
-        // clear selection in UI
         if (sender is CollectionView cv)
             cv.SelectedItem = null;
 
-        // navigate to details page with game id
         var id = selected.GameBrainId?.ToString() ?? string.Empty;
         if (!string.IsNullOrWhiteSpace(id))
         {
